@@ -1,0 +1,6 @@
+;This is a section
+[Data]
+Name=Mickey
+;This is a surname
+Surname=Mouse
+;Footer

@@ -1,0 +1,474 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>IniFiles</name>
+    </assembly>
+    <members>
+        <member name="T:Gajatko.IniFiles.IniFileElement">
+            <summary>Base class for all Config File elements.</summary>
+        </member>
+        <member name="F:Gajatko.IniFiles.IniFileElement.formatting">
+            <summary>Same as Formatting</summary>
+        </member>
+        <member name="M:Gajatko.IniFiles.IniFileElement.#ctor">
+            <summary>Initializes a new, empty instance IniFileElement</summary>
+        </member>
+        <member name="M:Gajatko.IniFiles.IniFileElement.#ctor(System.String)">
+            <summary>Initializes a new instance IniFileElement</summary>
+            <param name="_content">Actual content of a line in a INI file.</param>
+        </member>
+        <member name="P:Gajatko.IniFiles.IniFileElement.Formatting">
+            <summary>Gets or sets a formatting string of this INI file element, spicific to it's type. 
+            See DefaultFormatting property in IniFileSettings for more info.</summary>
+        </member>
+        <member name="P:Gajatko.IniFiles.IniFileElement.Intendation">
+            <summary>Gets or sets a string of white characters which precedes any meaningful content of a line.</summary>
+        </member>
+        <member name="P:Gajatko.IniFiles.IniFileElement.Content">
+            <summary>Gets full text representation of a config file element, excluding intendation.</summary>
+        </member>
+        <member name="P:Gajatko.IniFiles.IniFileElement.Line">
+            <summary>Gets full text representation of a config file element, including intendation.</summary>
+        </member>
+        <member name="M:Gajatko.IniFiles.IniFileElement.ToString">
+            <summary>Gets a string representation of this IniFileElement object.</summary>
+        </member>
+        <member name="M:Gajatko.IniFiles.IniFileElement.FormatDefault">
+            <summary>Formats this config element</summary>
+        </member>
+        <member name="T:Gajatko.IniFiles.IniFileSectionStart">
+            <summary>Represents section's start line, e.g. "[SectionName]".</summary>
+        </member>
+        <member name="M:Gajatko.IniFiles.IniFileSectionStart.#ctor(System.String)">
+            <summary>Initializes a new instance IniFileSectionStart</summary>
+            <param name="content">Actual content of a line in an INI file. Initializer assumes that it is valid.</param>
+        </member>
+        <member name="P:Gajatko.IniFiles.IniFileSectionStart.SectionName">
+            <summary>Gets or sets a secion's name.</summary>
+        </member>
+        <member name="P:Gajatko.IniFiles.IniFileSectionStart.InlineComment">
+            <summary>Gets or sets an inline comment, which appear after the value.</summary>
+        </member>
+        <member name="M:Gajatko.IniFiles.IniFileSectionStart.IsLineValid(System.String)">
+            <summary>Determines whether specified string is a representation of particular IniFileElement object.</summary>
+            <param name="testString">Trimmed test string.</param>
+        </member>
+        <member name="M:Gajatko.IniFiles.IniFileSectionStart.ToString">
+            <summary>Gets a string representation of this IniFileSectionStart object.</summary>
+        </member>
+        <member name="M:Gajatko.IniFiles.IniFileSectionStart.CreateNew(System.String)">
+            <summary>Creates a new IniFileSectionStart object basing on a name of section and the formatting style of this section.</summary>
+            <param name="sectName">Name of the new section</param>
+        </member>
+        <member name="M:Gajatko.IniFiles.IniFileSectionStart.ExtractFormat(System.String)">
+            <summary>Creates a formatting string basing on an actual content of a line.</summary>
+        </member>
+        <member name="M:Gajatko.IniFiles.IniFileSectionStart.FormatDefault">
+            <summary>Formats the IniFileElement object using default format specified in IniFileSettings.</summary>
+        </member>
+        <member name="M:Gajatko.IniFiles.IniFileSectionStart.Format">
+            <summary>Formats this element using a formatting string in Formatting property.</summary>
+        </member>
+        <member name="M:Gajatko.IniFiles.IniFileSectionStart.Format(System.String)">
+            <summary>Formats this element using given formatting string</summary>
+            <param name="formatting">Formatting template, where '['-open bracket, '$'-section name, ']'-close bracket, ';'-inline comments.</param>
+        </member>
+        <member name="M:Gajatko.IniFiles.IniFileSectionStart.FromName(System.String)">
+            <summary>Crates a IniFileSectionStart object from name of a section.</summary>
+            <param name="sectionName">Name of a section</param>
+        </member>
+        <member name="T:Gajatko.IniFiles.IniFileBlankLine">
+            <summary>Represents one or more blank lines within a config file.</summary>
+        </member>
+        <member name="M:Gajatko.IniFiles.IniFileBlankLine.#ctor(System.Int32)">
+            <summary>Initializes a new instance IniFileBlankLine</summary>
+            <param name="amount">Number of blank lines.</param>
+        </member>
+        <member name="P:Gajatko.IniFiles.IniFileBlankLine.Amount">
+            <summary>Gets or sets a number of blank lines.</summary>
+        </member>
+        <member name="M:Gajatko.IniFiles.IniFileBlankLine.IsLineValid(System.String)">
+            <summary>Determines whether specified string is a representation of particular IniFileElement object.</summary>
+            <param name="testString">Trimmed test string.</param>
+        </member>
+        <member name="M:Gajatko.IniFiles.IniFileBlankLine.ToString">
+            <summary>Gets a string representation of this IniFileBlankLine object.</summary>
+        </member>
+        <member name="M:Gajatko.IniFiles.IniFileBlankLine.FormatDefault">
+            <summary>Formats the IniFileElement object using directions in IniFileSettings.</summary>
+        </member>
+        <member name="T:Gajatko.IniFiles.IniFileCommentary">
+            <summary>Represents one or more comment lines in a config file.</summary>
+        </member>
+        <member name="M:Gajatko.IniFiles.IniFileCommentary.#ctor(System.String)">
+            <summary>Initializes a new instance IniFileCommentary</summary>
+            <param name="content">Actual content of a line in a INI file.</param>
+        </member>
+        <member name="P:Gajatko.IniFiles.IniFileCommentary.CommentChar">
+            <summary>Gets or sets comment char used in the config file for this comment.</summary>
+        </member>
+        <member name="P:Gajatko.IniFiles.IniFileCommentary.Comment">
+            <summary>Gets or sets a commentary string.</summary>
+        </member>
+        <member name="M:Gajatko.IniFiles.IniFileCommentary.IsLineValid(System.String)">
+            <summary>Determines whether specified string is a representation of particular IniFileElement object.</summary>
+            <param name="testString">Trimmed test string.</param>
+        </member>
+        <member name="M:Gajatko.IniFiles.IniFileCommentary.ToString">
+            <summary>Gets a string representation of this IniFileCommentary object.</summary>
+        </member>
+        <member name="M:Gajatko.IniFiles.IniFileCommentary.FromComment(System.String)">
+            <summary>Gets an IniFileCommentary object from commentary text.</summary>
+            <param name="comment">Commentary text.</param>
+        </member>
+        <member name="M:Gajatko.IniFiles.IniFileCommentary.FormatDefault">
+            <summary>Formats IniFileCommentary object to default appearance.</summary>
+        </member>
+        <member name="T:Gajatko.IniFiles.IniFileValue">
+            <summary>Represents one key-value pair.</summary>
+        </member>
+        <member name="M:Gajatko.IniFiles.IniFileValue.#ctor(System.String)">
+            <summary>Initializes a new instance IniFileValue.</summary>
+            <param name="content">Actual content of a line in an INI file. Initializer assumes that it is valid.</param>
+        </member>
+        <member name="P:Gajatko.IniFiles.IniFileValue.Key">
+            <summary>Gets or sets a name of value.</summary>
+        </member>
+        <member name="P:Gajatko.IniFiles.IniFileValue.Value">
+            <summary>Gets or sets a value.</summary>
+        </member>
+        <member name="P:Gajatko.IniFiles.IniFileValue.InlineComment">
+            <summary>Gets or sets an inline comment, which appear after the value.</summary>
+        </member>
+        <member name="M:Gajatko.IniFiles.IniFileValue.ExtractFormat(System.String)">
+            <summary>Creates a formatting string basing on an actual content of a line.</summary>
+        </member>
+        <member name="M:Gajatko.IniFiles.IniFileValue.Format">
+            <summary>Formats this element using the format string in Formatting property.</summary>
+        </member>
+        <member name="M:Gajatko.IniFiles.IniFileValue.Format(System.String)">
+            <summary>Formats this element using given formatting string</summary>
+            <param name="formatting">Formatting template, where '?'-key, '='-equality sign, '$'-value, ';'-inline comments.</param>
+        </member>
+        <member name="M:Gajatko.IniFiles.IniFileValue.FormatDefault">
+            <summary>Formats content using a scheme specified in IniFileSettings.DefaultValueFormatting.</summary>
+        </member>
+        <member name="M:Gajatko.IniFiles.IniFileValue.CreateNew(System.String,System.String)">
+            <summary>Creates a new IniFileValue object basing on a key and a value and the formatting  of this IniFileValue.</summary>
+            <param name="key">Name of value</param>
+            <param name="value">Value</param>
+        </member>
+        <member name="M:Gajatko.IniFiles.IniFileValue.IsLineValid(System.String)">
+            <summary>Determines whether specified string is a representation of particular IniFileElement object.</summary>
+            <param name="testString">Trimmed test string.</param>
+        </member>
+        <member name="M:Gajatko.IniFiles.IniFileValue.Set(System.String,System.String)">
+            <summary>Sets both key and values. Recommended when both properties have to be changed.</summary>
+        </member>
+        <member name="M:Gajatko.IniFiles.IniFileValue.ToString">
+            <summary>Gets a string representation of this IniFileValue object.</summary>
+        </member>
+        <member name="M:Gajatko.IniFiles.IniFileValue.FromData(System.String,System.String)">
+            <summary>Crates a IniFileValue object from it's data.</summary>
+            <param name="key">Value name.</param>
+            <param name="value">Associated value.</param>
+        </member>
+        <member name="T:Gajatko.IniFiles.Light.IniFileLight">
+            <summary>Provides a simpliest parser/writer of INI files. This parser will not preserve formatting, blank lines, and multi-line commentaries.</summary>
+        </member>
+        <member name="F:Gajatko.IniFiles.Light.IniFileLight.EQUALITY_SIGN">
+            <summary>Character used as an equality sign.</summary>
+        </member>
+        <member name="F:Gajatko.IniFiles.Light.IniFileLight.SECTION_OPEN_BRACKET">
+            <summary>Character used as an opening bracket of sections' definitions.</summary>
+        </member>
+        <member name="F:Gajatko.IniFiles.Light.IniFileLight.SECTION_CLOSE_BRACKET">
+            <summary>Character used as an closing bracket of sections' definitions.</summary>
+        </member>
+        <member name="F:Gajatko.IniFiles.Light.IniFileLight.COMMENT_START_1">
+            <summary>Character used as a commentary start.</summary>
+        </member>
+        <member name="F:Gajatko.IniFiles.Light.IniFileLight.COMMENT_START_2">
+            <summary>Character used as an alternative commentary start.</summary>
+        </member>
+        <member name="M:Gajatko.IniFiles.Light.IniFileLight.#ctor(System.String)">
+            <summary>Creates a new instance of IniFileLight, loading an INI file from specified path.</summary>
+            <param name="path">Path to an existing INI file.</param>
+        </member>
+        <member name="M:Gajatko.IniFiles.Light.IniFileLight.#ctor(System.IO.Stream)">
+            <summary>Creates a new instance of IniFileLight, loading an INI file from specified stream.</summary>
+            <param name="stream">A stream of INI content.</param>
+        </member>
+        <member name="M:Gajatko.IniFiles.Light.IniFileLight.#ctor">
+            <summary>Creates a new, empty instance of IniFileLight.</summary>
+        </member>
+        <member name="P:Gajatko.IniFiles.Light.IniFileLight.Sections">
+            <summary>Gets a dictionary of sections, in which keys are names of sections and values are
+            dictionaries in which keys are names of values and values are actual values.</summary>
+        </member>
+        <member name="P:Gajatko.IniFiles.Light.IniFileLight.Comments">
+            <summary>Gets a dictionary of comments, in which keys are paths to the entries in the format:
+            "SectionName.Key", "SectionName" or "" for the footer.</summary>
+        </member>
+        <member name="M:Gajatko.IniFiles.Light.IniFileLight.Save(System.String)">
+            <summary>Saves the current state of sections and values to a file.</summary>
+            <param name="path">Path of a file where to save an INI.</param>
+        </member>
+        <member name="M:Gajatko.IniFiles.Light.IniFileLight.Save(System.IO.Stream)">
+            <summary>Saves the current state of sections and values to a file.</summary>
+            <param name="stream">Stream where to send INI's content.</param>
+        </member>
+        <member name="T:Gajatko.IniFiles.IniFileReader">
+            <summary>StreamReader implementation, which read from an INI file.
+            IniFileReader DOES NOT override any StreamReader methods. New ones are added.</summary>
+        </member>
+        <member name="M:Gajatko.IniFiles.IniFileReader.#ctor(System.IO.Stream)">
+            <summary>Initializes a new instance of IniFileReader from specified stream.</summary>
+        </member>
+        <member name="M:Gajatko.IniFiles.IniFileReader.#ctor(System.IO.Stream,System.Text.Encoding)">
+            <summary>Initializes a new instance of IniFileReader from specified stream and encoding.</summary>
+        </member>
+        <member name="M:Gajatko.IniFiles.IniFileReader.#ctor(System.String)">
+            <summary>Initializes a new instance of IniFileReader from specified path.</summary>
+        </member>
+        <member name="M:Gajatko.IniFiles.IniFileReader.#ctor(System.String,System.Text.Encoding)">
+            <summary>Initializes a new instance of IniFileReader from specified path and encoding.</summary>
+        </member>
+        <member name="M:Gajatko.IniFiles.IniFileReader.ParseLine(System.String)">
+            <summary>Parses a single line.</summary>
+            <param name="line">Text to parse.</param>
+        </member>
+        <member name="M:Gajatko.IniFiles.IniFileReader.ParseText(System.String)">
+            <summary>Parses given text.</summary>
+            <param name="text">Text to parse.</param>
+        </member>
+        <member name="M:Gajatko.IniFiles.IniFileReader.ReadElement">
+            <summary>Reads and parses next line from the config file.</summary>
+            <returns>Created ConfigFileElement.</returns>
+        </member>
+        <member name="M:Gajatko.IniFiles.IniFileReader.ReadElementsToEnd">
+            <summary>Reads all files</summary>
+            <returns>All new elements which was added.</returns>
+        </member>
+        <member name="M:Gajatko.IniFiles.IniFileReader.GotoSection(System.String)">
+            <summary>Seeks to the section of specified name. If such section is not found,
+            the function returns NULL and leaves the stream at the end of file.</summary>
+            <param name="sectionName">Name of section to find.</param>
+        </member>
+        <member name="M:Gajatko.IniFiles.IniFileReader.ReadSection">
+            <summary>Returns a list of IniFileElement object in the currect section. The first element of
+            returned collection will be a IniFileSectionStart.</summary>
+            <exception cref="T:System.InvalidOperationException">A stream is not currently at the IniFileSectionStart.</exception>
+        </member>
+        <member name="P:Gajatko.IniFiles.IniFileReader.Current">
+            <summary>Gets a recently parsed IniFileElement.</summary>
+        </member>
+        <member name="M:Gajatko.IniFiles.IniFileReader.ReadSectionValues">
+            <summary>Gets values of the current section.</summary>
+            <exception cref="T:System.InvalidOperationException">A stream is not currently at the IniFileSectionStart.</exception>
+        </member>
+        <member name="M:Gajatko.IniFiles.IniFileReader.GotoValue(System.String)">
+            <summary>Searches the current section for a value of specified key. If such key is not found,
+            the function returns NULL and leaves the stream at next section.</summary>
+            <param name="key">Key to find.</param>
+        </member>
+        <member name="M:Gajatko.IniFiles.IniFileReader.GotoValue(System.String,System.Boolean)">
+            <summary>Searches for a value of specified key. If such key is not found,
+            the function returns NULL and leaves the stream at next section.</summary>
+            <param name="key">Key to find.</param>
+            <param name="searchWholeFile">Sets a search scope. If true, function will not stop at the next IniFileSectionStart.</param>
+        </member>
+        <member name="T:Gajatko.IniFiles.IniFileWriter">
+            <summary>StreamWriter implementation which writes an INI file.
+            IniFileWriter DOES NOT override any StreamReader methods. New ones are added.</summary>
+        </member>
+        <member name="M:Gajatko.IniFiles.IniFileWriter.#ctor(System.IO.Stream)">
+            <summary>Initializes a new instance of IniFileReader from specified stream.</summary>
+        </member>
+        <member name="M:Gajatko.IniFiles.IniFileWriter.#ctor(System.String)">
+            <summary>Initializes a new instance of IniFileReader from specified path.</summary>
+        </member>
+        <member name="M:Gajatko.IniFiles.IniFileWriter.#ctor(System.IO.Stream,System.Text.Encoding)">
+            <summary>Initializes a new instance of IniFileReader from specified stream and encoding.</summary>
+        </member>
+        <member name="M:Gajatko.IniFiles.IniFileWriter.#ctor(System.String,System.Boolean)">
+            <summary>Initializes a new instance of IniFileReader from specified path and encoding.</summary>
+        </member>
+        <member name="M:Gajatko.IniFiles.IniFileWriter.WriteElement(Gajatko.IniFiles.IniFileElement)">
+            <summary>Writes INI file element to the file.</summary>
+            <param name="element">Element to write.</param>
+        </member>
+        <member name="M:Gajatko.IniFiles.IniFileWriter.WriteElements(System.Collections.Generic.IEnumerable{Gajatko.IniFiles.IniFileElement})">
+            <summary>Writes collection of INI file elements to the file.</summary>
+            <param name="elements">Elements collection to write.</param>
+        </member>
+        <member name="M:Gajatko.IniFiles.IniFileWriter.WriteIniFile(Gajatko.IniFiles.IniFile)">
+            <summary>Writes a whole INI to a file</summary>
+            <param name="file">Section to write.</param>
+        </member>
+        <member name="M:Gajatko.IniFiles.IniFileWriter.WriteSection(Gajatko.IniFiles.IniFileSection)">
+            <summary>Writes a section to a file</summary>
+            <param name="section">Section to write.</param>
+        </member>
+        <member name="T:Gajatko.IniFiles.IniFile">
+            <summary>Object model for INI file, which stores a whole structure in memory.</summary>
+        </member>
+        <member name="M:Gajatko.IniFiles.IniFile.#ctor">
+            <summary>Creates new instance of IniFile.</summary>
+        </member>
+        <member name="P:Gajatko.IniFiles.IniFile.Item(System.String)">
+            <summary>Gets a IniFileSection object from it's name</summary>
+            <param name="sectionName">Name of section to search for. If not found, new one is created.</param>
+        </member>
+        <member name="M:Gajatko.IniFiles.IniFile.GetSectionNames">
+            <summary>Gets an array of names of sections in this INI file.</summary>
+        </member>
+        <member name="M:Gajatko.IniFiles.IniFile.FromFile(System.String)">
+            <summary>Reads a INI file from a file or creates one.</summary>
+        </member>
+        <member name="M:Gajatko.IniFiles.IniFile.FromElements(System.Collections.Generic.IEnumerable{Gajatko.IniFiles.IniFileElement})">
+            <summary>Creates a new IniFile from elements collection (Advanced member).</summary>
+            <param name="elemes">Elements collection.</param>
+        </member>
+        <member name="M:Gajatko.IniFiles.IniFile.FromStream(Gajatko.IniFiles.IniFileReader)">
+            <summary>Reads a INI file from a stream.</summary>
+        </member>
+        <member name="M:Gajatko.IniFiles.IniFile.Save(System.String)">
+            <summary>Writes a INI file to a disc, using options in IniFileSettings class</summary>
+        </member>
+        <member name="M:Gajatko.IniFiles.IniFile.Save(Gajatko.IniFiles.IniFileWriter)">
+            <summary>Writes a INI file to a stream, using options in IniFileSettings class</summary>
+        </member>
+        <member name="M:Gajatko.IniFiles.IniFile.DeleteSection(System.String)">
+            <summary>Deletes a section and all it's values and comments. No exception is thrown if there is no section of requested name.</summary>
+            <param name="name">Name of section to delete.</param>
+        </member>
+        <member name="M:Gajatko.IniFiles.IniFile.Format(System.Boolean)">
+            <summary>Formats whole INI file.</summary>
+            <param name="preserveIntendation">If true, old intendation will be standarized but not removed.</param>
+        </member>
+        <member name="M:Gajatko.IniFiles.IniFile.UnifySections">
+            <summary>Joins sections which are definied more than one time.</summary>
+        </member>
+        <member name="P:Gajatko.IniFiles.IniFile.Header">
+            <summary>Gets or sets a header commentary of an INI file. Header comment must if separate from
+            comment of a first section except when IniFileSetting.SeparateHeader is set to false.</summary>
+        </member>
+        <member name="P:Gajatko.IniFiles.IniFile.Foot">
+            <summary>Gets or sets a commentary at the end of an INI file.</summary>
+        </member>
+        <member name="T:Gajatko.IniFiles.IniFileSection">
+            <summary>Object model for a section in an INI file, which stores a all values in memory.</summary>
+        </member>
+        <member name="P:Gajatko.IniFiles.IniFileSection.Name">
+            <summary>Gets or sets the name of the section</summary>
+        </member>
+        <member name="P:Gajatko.IniFiles.IniFileSection.Comment">
+            <summary>Gets or sets comment associated with this section. In the file a comment must appear exactly
+            above section's declaration. Returns "" if no comment is provided.</summary>
+        </member>
+        <member name="M:Gajatko.IniFiles.IniFileSection.SetComment(System.String,System.String)">
+            <summary>Sets the comment for given key.</summary>
+        </member>
+        <member name="M:Gajatko.IniFiles.IniFileSection.SetInlineComment(System.String,System.String)">
+            <summary>Sets the inline comment for given key.</summary>
+        </member>
+        <member name="M:Gajatko.IniFiles.IniFileSection.GetInlineComment(System.String)">
+            <summary>Gets the inline comment for given key.</summary>
+        </member>
+        <member name="P:Gajatko.IniFiles.IniFileSection.InlineComment">
+            <summary>Gets or sets the inline for this section.</summary>
+        </member>
+        <member name="M:Gajatko.IniFiles.IniFileSection.GetComment(System.String)">
+            <summary>Gets the comment associated to given key. If there is no comment, empty string is returned.
+            If the key does not exist, NULL is returned.</summary>
+        </member>
+        <member name="M:Gajatko.IniFiles.IniFileSection.RenameKey(System.String,System.String)">
+            <summary>Renames a key.</summary>
+        </member>
+        <member name="M:Gajatko.IniFiles.IniFileSection.DeleteKey(System.String)">
+            <summary>Deletes a key.</summary>
+        </member>
+        <member name="P:Gajatko.IniFiles.IniFileSection.Item(System.String)">
+            <summary>Gets or sets value of the key</summary>
+            <param name="key">Name of key.</param>
+        </member>
+        <member name="P:Gajatko.IniFiles.IniFileSection.Item(System.String,System.String)">
+            <summary>Gets or sets value of a key.</summary>
+            <param name="key">Name of the key.</param>
+            <param name="defaultValue">A value to return if the requested key was not found.</param>
+        </member>
+        <member name="M:Gajatko.IniFiles.IniFileSection.GetKeys">
+            <summary>Gets an array of names of values in this section.</summary>
+        </member>
+        <member name="M:Gajatko.IniFiles.IniFileSection.ToString">
+            <summary>Gets a string representation of this IniFileSectionReader object.</summary>
+        </member>
+        <member name="M:Gajatko.IniFiles.IniFileSection.Format(System.Boolean)">
+            <summary>Formats whole section.</summary>
+            <param name="preserveIntendation">Determines whether intendation should be preserved.</param>
+        </member>
+        <member name="T:Gajatko.IniFiles.IniFileSettings">
+            <summary>Static class containing format settings for INI files.</summary>
+        </member>
+        <member name="P:Gajatko.IniFiles.IniFileSettings.PreserveFormatting">
+            <summary>Inficates whether parser should preserve formatting. Default TRUE.</summary>
+        </member>
+        <member name="P:Gajatko.IniFiles.IniFileSettings.AllowEmptyValues">
+            <summary>If true empty keys will not be removed. Default TRUE.</summary>
+        </member>
+        <member name="P:Gajatko.IniFiles.IniFileSettings.AllowTextOnTheRight">
+            <summary>If Quotes are on, then it in such situation: |KEY = "VALUE" blabla|, 'blabla' is 
+            a "text on the right". If this field is set to False, then such string will be ignored.</summary>
+        </member>
+        <member name="P:Gajatko.IniFiles.IniFileSettings.GroupElements">
+            <summary>Indicates whether comments and blank lines should be grouped
+            (if true then multiple line comment will be parsed to the one single IniFileComment object).
+            Otherwise, one IniFileElement will be always representing one single line in the file. Default TRUE.</summary>
+        </member>
+        <member name="P:Gajatko.IniFiles.IniFileSettings.CaseSensitive">
+            <summary>Determines whether all searching/testing operation are case-sensitive. Default TRUE.</summary>
+        </member>
+        <member name="P:Gajatko.IniFiles.IniFileSettings.SeparateHeader">
+            <summary>Determines whether a header comment of an INI file is separate from a comment of first section.
+            If false, comment at the beginning of file may be considered both as header and commentary of the first section. Default TRUE.</summary>
+        </member>
+        <member name="P:Gajatko.IniFiles.IniFileSettings.AllowBlankLines">
+            <summary>If true, blank lines will be written to a file. Otherwise, they will ignored.</summary>
+        </member>
+        <member name="P:Gajatko.IniFiles.IniFileSettings.AllowInlineComments">
+            <summary>If true, blank lines will be written to a file. Otherwise, they will ignored.</summary>
+        </member>
+        <member name="P:Gajatko.IniFiles.IniFileSettings.SectionCloseBracket">
+            <summary>A string which represents close bracket for a section. If empty or null, sections will
+            disabled. Default "]"</summary>
+        </member>
+        <member name="P:Gajatko.IniFiles.IniFileSettings.CommentChars">
+            <summary>Gets or sets array of strings which start a comment line.
+            Default is {"#" (hash), ";" (semicolon)}. If empty or null, commentaries
+            will not be allowed.</summary>
+        </member>
+        <member name="P:Gajatko.IniFiles.IniFileSettings.QuoteChar">
+            <summary>Gets or sets a character which is used as quote. Default null (not using quotation marks).</summary>
+        </member>
+        <member name="P:Gajatko.IniFiles.IniFileSettings.DefaultSectionFormatting">
+            <summary>A string which determines default formatting of section headers used in Format() method.
+            '$' (dollar) means a section's name; '[' and ']' mean brackets; optionally, ';' is an inline comment. Default is "[$]  ;" (e.g. "[Section]  ;comment")</summary>
+        </member>
+        <member name="P:Gajatko.IniFiles.IniFileSettings.DefaultValueFormatting">
+            <summary>A string which determines default formatting of values used in Format() method. '?' (question mark) means a key,
+            '$' (dollar) means a value and '=' (equality sign) means EqualsString; optionally, ';' is an inline comment.
+            If QouteChar is not null, '$' will be automatically surrounded with qouetes. Default "?=$  ;" (e.g. "Key=Value  ;comment".</summary>
+        </member>
+        <member name="P:Gajatko.IniFiles.IniFileSettings.SectionOpenBracket">
+            <summary>A string which represents open bracket for a section. If empty or null, sections will
+            disabled. Default "[".</summary>
+        </member>
+        <member name="P:Gajatko.IniFiles.IniFileSettings.EqualsString">
+            <summary>Gets or sets string used as equality sign (which separates value from key). Default "=".</summary>
+        </member>
+        <member name="P:Gajatko.IniFiles.IniFileSettings.TabReplacement">
+            <summary>The string which all tabs in intendentation will be replaced with. If null, tabs will not be replaced. Default "    " (four spaces).</summary>
+        </member>
+    </members>
+</doc>

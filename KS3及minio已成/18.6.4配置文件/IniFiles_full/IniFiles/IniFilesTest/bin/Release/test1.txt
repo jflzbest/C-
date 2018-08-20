@@ -1,0 +1,31 @@
+;IniFiles demo.
+;Copyright by Gajatko a.d. 2007
+;All rights reserved
+;
+;Preserving format feature is ON.
+;Note that new values in [First] section look the same as
+;the one which already existed.
+
+[Second]
+empty=
+notemty=rere
+
+;Element out of section, can be accessed
+;via pseudo-section "" (no-name).
+Element=Alien
+
+[First]
+  Number=   666
+  NewOne=   aaa
+  NewTwo=   bbb
+  NewThree=   ccc
+
+    ;Override multiline comment of 'Another'
+    ;Spaces surrounding section name are preserved.
+	[ Section Another was renamed ]
+        My Vote Was = 5
+	[ New section ]
+        ;Comment for a newly created key
+        KEYE = geage   ;Inline comment for a newly created key
+
+;As you see, it is cool.

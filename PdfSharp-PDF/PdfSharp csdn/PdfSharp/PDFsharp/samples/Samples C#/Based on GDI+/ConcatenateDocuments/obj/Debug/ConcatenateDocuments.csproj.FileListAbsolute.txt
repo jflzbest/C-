@@ -1,0 +1,11 @@
+H:\haixt111\Script\18.6.27Word转pdf\PdfSharp csdn\PdfSharp\PDFsharp\samples\Samples C#\Based on GDI+\ConcatenateDocuments\bin\Debug\ConcatenateDocuments.exe.config
+H:\haixt111\Script\18.6.27Word转pdf\PdfSharp csdn\PdfSharp\PDFsharp\samples\Samples C#\Based on GDI+\ConcatenateDocuments\bin\Debug\ConcatenateDocuments.exe
+H:\haixt111\Script\18.6.27Word转pdf\PdfSharp csdn\PdfSharp\PDFsharp\samples\Samples C#\Based on GDI+\ConcatenateDocuments\bin\Debug\ConcatenateDocuments.pdb
+H:\haixt111\Script\18.6.27Word转pdf\PdfSharp csdn\PdfSharp\PDFsharp\samples\Samples C#\Based on GDI+\ConcatenateDocuments\bin\Debug\PdfSharp.dll
+H:\haixt111\Script\18.6.27Word转pdf\PdfSharp csdn\PdfSharp\PDFsharp\samples\Samples C#\Based on GDI+\ConcatenateDocuments\bin\Debug\PdfSharp.pdb
+H:\haixt111\Script\18.6.27Word转pdf\PdfSharp csdn\PdfSharp\PDFsharp\samples\Samples C#\Based on GDI+\ConcatenateDocuments\bin\Debug\PdfSharp.xml
+H:\haixt111\Script\18.6.27Word转pdf\PdfSharp csdn\PdfSharp\PDFsharp\samples\Samples C#\Based on GDI+\ConcatenateDocuments\bin\Debug\de\PdfSharp.resources.dll
+H:\haixt111\Script\18.6.27Word转pdf\PdfSharp csdn\PdfSharp\PDFsharp\samples\Samples C#\Based on GDI+\ConcatenateDocuments\obj\Debug\ConcatenateDocuments.csproj.CoreCompileInputs.cache
+H:\haixt111\Script\18.6.27Word转pdf\PdfSharp csdn\PdfSharp\PDFsharp\samples\Samples C#\Based on GDI+\ConcatenateDocuments\obj\Debug\ConcatenateDocuments.csproj.CopyComplete
+H:\haixt111\Script\18.6.27Word转pdf\PdfSharp csdn\PdfSharp\PDFsharp\samples\Samples C#\Based on GDI+\ConcatenateDocuments\obj\Debug\ConcatenateDocuments.exe
+H:\haixt111\Script\18.6.27Word转pdf\PdfSharp csdn\PdfSharp\PDFsharp\samples\Samples C#\Based on GDI+\ConcatenateDocuments\obj\Debug\ConcatenateDocuments.pdb

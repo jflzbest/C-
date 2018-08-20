@@ -1,0 +1,16 @@
+H:\haixt111\Script\word转PDF\08（8.7.6）\wordPDF1\wordPDF1\obj\Debug\wordPDF1.csprojAssemblyReference.cache
+H:\haixt111\Script\word转PDF\08（8.7.6）\wordPDF1\wordPDF1\obj\Debug\wordPDF1.Properties.Resources.resources
+H:\haixt111\Script\word转PDF\08（8.7.6）\wordPDF1\wordPDF1\obj\Debug\wordPDF1.csproj.GenerateResource.cache
+H:\haixt111\Script\word转PDF\08（8.7.6）\wordPDF1\wordPDF1\obj\Debug\wordPDF1.csproj.CoreCompileInputs.cache
+H:\haixt111\Script\word转PDF\08（8.7.6）\wordPDF1\wordPDF1\bin\Debug\wordPDF1.exe.config
+H:\haixt111\Script\word转PDF\08（8.7.6）\wordPDF1\wordPDF1\bin\Debug\wordPDF1.exe
+H:\haixt111\Script\word转PDF\08（8.7.6）\wordPDF1\wordPDF1\bin\Debug\wordPDF1.pdb
+H:\haixt111\Script\word转PDF\08（8.7.6）\wordPDF1\wordPDF1\bin\Debug\PdfSharp.Charting.dll
+H:\haixt111\Script\word转PDF\08（8.7.6）\wordPDF1\wordPDF1\bin\Debug\PdfSharp.dll
+H:\haixt111\Script\word转PDF\08（8.7.6）\wordPDF1\wordPDF1\bin\Debug\PdfSharp.xml
+H:\haixt111\Script\word转PDF\08（8.7.6）\wordPDF1\wordPDF1\bin\Debug\PdfSharp.Charting.xml
+H:\haixt111\Script\word转PDF\08（8.7.6）\wordPDF1\wordPDF1\bin\Debug\de\PdfSharp.resources.dll
+H:\haixt111\Script\word转PDF\08（8.7.6）\wordPDF1\wordPDF1\bin\Debug\de\PdfSharp.Charting.resources.dll
+H:\haixt111\Script\word转PDF\08（8.7.6）\wordPDF1\wordPDF1\obj\Debug\wordPDF1.csproj.CopyComplete
+H:\haixt111\Script\word转PDF\08（8.7.6）\wordPDF1\wordPDF1\obj\Debug\wordPDF1.exe
+H:\haixt111\Script\word转PDF\08（8.7.6）\wordPDF1\wordPDF1\obj\Debug\wordPDF1.pdb

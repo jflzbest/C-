@@ -1,0 +1,28 @@
+H:\haixt111\Script\18.6.27Word转pdf\新建文件夹\PdfSharp\PDFsharp\code\PdfSharp\obj\Debug\PdfSharp.csprojAssemblyReference.cache
+H:\haixt111\Script\18.6.27Word转pdf\新建文件夹\PdfSharp\PDFsharp\code\PdfSharp\obj\Debug\PdfSharp.Forms.PagePreview.resources
+H:\haixt111\Script\18.6.27Word转pdf\新建文件夹\PdfSharp\PDFsharp\code\PdfSharp\obj\Debug\PdfSharp.Forms.PagePreviewCanvas.resources
+H:\haixt111\Script\18.6.27Word转pdf\新建文件夹\PdfSharp\PDFsharp\code\PdfSharp\obj\Debug\PdfSharp.Resources.Messages.resources
+H:\haixt111\Script\18.6.27Word转pdf\新建文件夹\PdfSharp\PDFsharp\code\PdfSharp\obj\Debug\PdfSharp.Resources.Messages.de.resources
+H:\haixt111\Script\18.6.27Word转pdf\新建文件夹\PdfSharp\PDFsharp\code\PdfSharp\obj\Debug\PdfSharp.csproj.GenerateResource.cache
+H:\haixt111\Script\18.6.27Word转pdf\新建文件夹\PdfSharp\PDFsharp\code\PdfSharp\obj\Debug\PdfSharp.csproj.CoreCompileInputs.cache
+H:\haixt111\Script\18.6.27Word转pdf\新建文件夹\PdfSharp\PDFsharp\code\PdfSharp\bin\Debug\PdfSharp.xml
+H:\haixt111\Script\18.6.27Word转pdf\新建文件夹\PdfSharp\PDFsharp\code\PdfSharp\bin\Debug\PdfSharp.dll
+H:\haixt111\Script\18.6.27Word转pdf\新建文件夹\PdfSharp\PDFsharp\code\PdfSharp\bin\Debug\PdfSharp.pdb
+H:\haixt111\Script\18.6.27Word转pdf\新建文件夹\PdfSharp\PDFsharp\code\PdfSharp\bin\Debug\de\PdfSharp.resources.dll
+H:\haixt111\Script\18.6.27Word转pdf\新建文件夹\PdfSharp\PDFsharp\code\PdfSharp\obj\Debug\de\PdfSharp.resources.dll
+H:\haixt111\Script\18.6.27Word转pdf\新建文件夹\PdfSharp\PDFsharp\code\PdfSharp\obj\Debug\PdfSharp.dll
+H:\haixt111\Script\18.6.27Word转pdf\新建文件夹\PdfSharp\PDFsharp\code\PdfSharp\obj\Debug\PdfSharp.pdb
+H:\haixt111\Script\18.6.27Word转pdf\PdfSharp csdn\PdfSharp\PDFsharp\code\PdfSharp\bin\Debug\PdfSharp.xml
+H:\haixt111\Script\18.6.27Word转pdf\PdfSharp csdn\PdfSharp\PDFsharp\code\PdfSharp\bin\Debug\PdfSharp.dll
+H:\haixt111\Script\18.6.27Word转pdf\PdfSharp csdn\PdfSharp\PDFsharp\code\PdfSharp\bin\Debug\PdfSharp.pdb
+H:\haixt111\Script\18.6.27Word转pdf\PdfSharp csdn\PdfSharp\PDFsharp\code\PdfSharp\bin\Debug\de\PdfSharp.resources.dll
+H:\haixt111\Script\18.6.27Word转pdf\PdfSharp csdn\PdfSharp\PDFsharp\code\PdfSharp\obj\Debug\PdfSharp.csprojAssemblyReference.cache
+H:\haixt111\Script\18.6.27Word转pdf\PdfSharp csdn\PdfSharp\PDFsharp\code\PdfSharp\obj\Debug\PdfSharp.Forms.PagePreview.resources
+H:\haixt111\Script\18.6.27Word转pdf\PdfSharp csdn\PdfSharp\PDFsharp\code\PdfSharp\obj\Debug\PdfSharp.Forms.PagePreviewCanvas.resources
+H:\haixt111\Script\18.6.27Word转pdf\PdfSharp csdn\PdfSharp\PDFsharp\code\PdfSharp\obj\Debug\PdfSharp.Resources.Messages.resources
+H:\haixt111\Script\18.6.27Word转pdf\PdfSharp csdn\PdfSharp\PDFsharp\code\PdfSharp\obj\Debug\PdfSharp.Resources.Messages.de.resources
+H:\haixt111\Script\18.6.27Word转pdf\PdfSharp csdn\PdfSharp\PDFsharp\code\PdfSharp\obj\Debug\PdfSharp.csproj.GenerateResource.cache
+H:\haixt111\Script\18.6.27Word转pdf\PdfSharp csdn\PdfSharp\PDFsharp\code\PdfSharp\obj\Debug\PdfSharp.csproj.CoreCompileInputs.cache
+H:\haixt111\Script\18.6.27Word转pdf\PdfSharp csdn\PdfSharp\PDFsharp\code\PdfSharp\obj\Debug\de\PdfSharp.resources.dll
+H:\haixt111\Script\18.6.27Word转pdf\PdfSharp csdn\PdfSharp\PDFsharp\code\PdfSharp\obj\Debug\PdfSharp.dll
+H:\haixt111\Script\18.6.27Word转pdf\PdfSharp csdn\PdfSharp\PDFsharp\code\PdfSharp\obj\Debug\PdfSharp.pdb

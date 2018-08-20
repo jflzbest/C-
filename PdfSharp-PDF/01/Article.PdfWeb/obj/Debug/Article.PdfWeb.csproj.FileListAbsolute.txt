@@ -1,0 +1,4 @@
+H:\haixt111\Script\word转PDF\Article.PdfWeb\obj\Debug\Article.PdfWeb.csprojAssemblyReference.cache
+H:\haixt111\Script\word转PDF\Article.PdfWeb\obj\Debug\Article.PdfWeb.csproj.CoreCompileInputs.cache
+H:\haixt111\Script\word转PDF\01\Article.PdfWeb\obj\Debug\Article.PdfWeb.csprojAssemblyReference.cache
+H:\haixt111\Script\word转PDF\01\Article.PdfWeb\obj\Debug\Article.PdfWeb.csproj.CoreCompileInputs.cache

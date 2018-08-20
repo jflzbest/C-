@@ -1,0 +1,17 @@
+H:\haixt111\Script\word转PDF\Article.Pdf\bin\Debug\Article.Pdf.dll
+H:\haixt111\Script\word转PDF\Article.Pdf\bin\Debug\Article.Pdf.pdb
+H:\haixt111\Script\word转PDF\Article.Pdf\bin\Debug\itextsharp.dll
+H:\haixt111\Script\word转PDF\Article.Pdf\obj\Debug\Article.Pdf.csprojAssemblyReference.cache
+H:\haixt111\Script\word转PDF\Article.Pdf\obj\Debug\Article.Pdf.csproj.CoreCompileInputs.cache
+H:\haixt111\Script\word转PDF\Article.Pdf\obj\Debug\Article.Pdf.csproj.CopyComplete
+H:\haixt111\Script\word转PDF\Article.Pdf\obj\Debug\Article.Pdf.dll
+H:\haixt111\Script\word转PDF\Article.Pdf\obj\Debug\Article.Pdf.pdb
+H:\haixt111\Script\word转PDF\01\Article.Pdf\obj\Debug\Article.Pdf.csprojAssemblyReference.cache
+H:\haixt111\Script\word转PDF\01\Article.Pdf\obj\Debug\Article.Pdf.csproj.CoreCompileInputs.cache
+H:\haixt111\Script\word转PDF\01\Article.Pdf\obj\Debug\Article.Pdf.dll
+H:\haixt111\Script\word转PDF\01\Article.Pdf\obj\Debug\Article.Pdf.pdb
+H:\haixt111\Script\word转PDF\01\Article.Pdf\bin\Debug\Article.Pdf.dll
+H:\haixt111\Script\word转PDF\01\Article.Pdf\bin\Debug\Article.Pdf.pdb
+H:\haixt111\Script\word转PDF\01\Article.Pdf\bin\Debug\itextsharp.dll
+H:\haixt111\Script\word转PDF\01\Article.Pdf\bin\Debug\itextsharp.xml
+H:\haixt111\Script\word转PDF\01\Article.Pdf\obj\Debug\Article.Pdf.csproj.CopyComplete

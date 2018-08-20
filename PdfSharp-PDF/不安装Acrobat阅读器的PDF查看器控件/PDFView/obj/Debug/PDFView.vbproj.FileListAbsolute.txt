@@ -1,0 +1,15 @@
+H:\haixt111\Script\word写PDF\不安装Acrobat阅读器的PDF查看器控件\PDFView\bin\Debug\PDFView.dll
+H:\haixt111\Script\word写PDF\不安装Acrobat阅读器的PDF查看器控件\PDFView\bin\Debug\PDFView.pdb
+H:\haixt111\Script\word写PDF\不安装Acrobat阅读器的PDF查看器控件\PDFView\bin\Debug\PDFView.xml
+H:\haixt111\Script\word写PDF\不安装Acrobat阅读器的PDF查看器控件\PDFView\obj\Debug\PDFView.vbprojAssemblyReference.cache
+H:\haixt111\Script\word写PDF\不安装Acrobat阅读器的PDF查看器控件\PDFView\obj\Debug\PDFView.ExportImageOptions.resources
+H:\haixt111\Script\word写PDF\不安装Acrobat阅读器的PDF查看器控件\PDFView\obj\Debug\PDFView.ExportOptions.resources
+H:\haixt111\Script\word写PDF\不安装Acrobat阅读器的PDF查看器控件\PDFView\obj\Debug\PDFView.ImportProgress.resources
+H:\haixt111\Script\word写PDF\不安装Acrobat阅读器的PDF查看器控件\PDFView\obj\Debug\PDFView.Resources.resources
+H:\haixt111\Script\word写PDF\不安装Acrobat阅读器的PDF查看器控件\PDFView\obj\Debug\PDFView.Password.resources
+H:\haixt111\Script\word写PDF\不安装Acrobat阅读器的PDF查看器控件\PDFView\obj\Debug\PDFView.PDFViewer.resources
+H:\haixt111\Script\word写PDF\不安装Acrobat阅读器的PDF查看器控件\PDFView\obj\Debug\PDFView.vbproj.GenerateResource.cache
+H:\haixt111\Script\word写PDF\不安装Acrobat阅读器的PDF查看器控件\PDFView\obj\Debug\PDFView.vbproj.CoreCompileInputs.cache
+H:\haixt111\Script\word写PDF\不安装Acrobat阅读器的PDF查看器控件\PDFView\obj\Debug\PDFView.dll
+H:\haixt111\Script\word写PDF\不安装Acrobat阅读器的PDF查看器控件\PDFView\obj\Debug\PDFView.xml
+H:\haixt111\Script\word写PDF\不安装Acrobat阅读器的PDF查看器控件\PDFView\obj\Debug\PDFView.pdb

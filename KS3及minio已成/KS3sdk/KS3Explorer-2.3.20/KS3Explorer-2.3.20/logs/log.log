@@ -1,0 +1,11 @@
+2018-06-05 21:35:28 476 INFO  [main]AppLauncher.main(30) - App start....
+2018-06-05 21:35:28 480 INFO  [main]AppLauncher.main(41) - Default Charset=UTF-8
+2018-06-05 21:35:28 481 INFO  [main]AppLauncher.main(42) - file.encoding=UTF-8
+2018-06-05 21:35:28 481 INFO  [main]AppLauncher.main(43) - Default Charset=UTF-8
+2018-06-05 21:35:28 481 INFO  [main]AppLauncher.main(44) - Default Charset in Use=UTF8
+2018-06-05 21:35:55 784 INFO  [AWT-EventQueue-0]Constants.<clinit>(37) - 上传队列位置,D:\haixt111\Script\KS3及minio已成\KS3sdk\KS3Explorer-2.3.20\KS3Explorer-2.3.20\upload.queue
+2018-06-05 21:35:55 784 INFO  [AWT-EventQueue-0]Constants.<clinit>(38) - 下载队列位置,D:\haixt111\Script\KS3及minio已成\KS3sdk\KS3Explorer-2.3.20\KS3Explorer-2.3.20\download.queue
+2018-06-05 21:35:55 789 INFO  [AWT-EventQueue-0]UploadJobManager.<init>(46) - 启动上传线程池,大小为4
+2018-06-05 21:35:55 790 INFO  [AWT-EventQueue-0]DownLoadJobManager.<init>(38) - 启动下载线程池,大小为2
+2018-06-05 21:35:55 795 INFO  [AWT-EventQueue-0]UploadJobManager.restoreProgress(208) - 上传队列不存在
+2018-06-05 21:35:55 795 INFO  [AWT-EventQueue-0]DownLoadJobManager.restoreProgress(140) - 下载队列不存在

@@ -1,0 +1,40 @@
+2018-05-30 10:31:47 953 INFO  [main]AppLauncher.main(30) - App start....
+2018-05-30 10:31:47 957 INFO  [main]AppLauncher.main(41) - Default Charset=UTF-8
+2018-05-30 10:31:47 958 INFO  [main]AppLauncher.main(42) - file.encoding=UTF-8
+2018-05-30 10:31:47 958 INFO  [main]AppLauncher.main(43) - Default Charset=UTF-8
+2018-05-30 10:31:47 958 INFO  [main]AppLauncher.main(44) - Default Charset in Use=UTF8
+2018-05-30 10:32:10 178 INFO  [AWT-EventQueue-0]Constants.<clinit>(37) - 上传队列位置,D:\haixt111\Script\18.5.22KS3及minio已成\KS3sdk\KS3Explorer-2.3.20\KS3Explorer-2.3.20\upload.queue
+2018-05-30 10:32:10 179 INFO  [AWT-EventQueue-0]Constants.<clinit>(38) - 下载队列位置,D:\haixt111\Script\18.5.22KS3及minio已成\KS3sdk\KS3Explorer-2.3.20\KS3Explorer-2.3.20\download.queue
+2018-05-30 10:32:10 185 INFO  [AWT-EventQueue-0]UploadJobManager.<init>(46) - 启动上传线程池,大小为4
+2018-05-30 10:32:10 187 INFO  [AWT-EventQueue-0]DownLoadJobManager.<init>(38) - 启动下载线程池,大小为2
+2018-05-30 10:32:10 196 INFO  [AWT-EventQueue-0]UploadJobManager.restoreProgress(204) - 加载上传队列
+2018-05-30 10:32:10 196 INFO  [AWT-EventQueue-0]UploadJobManager.restoreProgress(205) - []
+2018-05-30 10:32:10 198 INFO  [AWT-EventQueue-0]DownLoadJobManager.restoreProgress(136) - 加载下载队列
+2018-05-30 10:32:10 198 INFO  [AWT-EventQueue-0]DownLoadJobManager.restoreProgress(137) - []
+2018-05-30 10:44:20 520 INFO  [AWT-EventQueue-0]UploadJobManager.saveProgress(176) - 上传队列为空, 无需保存.
+2018-05-30 10:44:20 522 INFO  [AWT-EventQueue-0]DownLoadJobManager.saveProgress(109) - 下载队列为空, 无需保存.
+2018-05-30 10:44:20 525 INFO  [AWT-EventQueue-0]ClosingHandler.windowClosing(26) - App is Closing...
+2018-05-30 10:44:23 025 INFO  [main]AppLauncher.main(30) - App start....
+2018-05-30 10:44:23 028 INFO  [main]AppLauncher.main(41) - Default Charset=UTF-8
+2018-05-30 10:44:23 029 INFO  [main]AppLauncher.main(42) - file.encoding=UTF-8
+2018-05-30 10:44:23 029 INFO  [main]AppLauncher.main(43) - Default Charset=UTF-8
+2018-05-30 10:44:23 029 INFO  [main]AppLauncher.main(44) - Default Charset in Use=UTF8
+2018-05-30 10:44:41 046 INFO  [AWT-EventQueue-0]Constants.<clinit>(37) - 上传队列位置,D:\haixt111\Script\18.5.22KS3及minio已成\KS3sdk\KS3Explorer-2.3.20\KS3Explorer-2.3.20\upload.queue
+2018-05-30 10:44:41 047 INFO  [AWT-EventQueue-0]Constants.<clinit>(38) - 下载队列位置,D:\haixt111\Script\18.5.22KS3及minio已成\KS3sdk\KS3Explorer-2.3.20\KS3Explorer-2.3.20\download.queue
+2018-05-30 10:44:41 048 INFO  [AWT-EventQueue-0]UploadJobManager.<init>(46) - 启动上传线程池,大小为4
+2018-05-30 10:44:41 049 INFO  [AWT-EventQueue-0]DownLoadJobManager.<init>(38) - 启动下载线程池,大小为2
+2018-05-30 10:44:41 058 INFO  [AWT-EventQueue-0]UploadJobManager.restoreProgress(204) - 加载上传队列
+2018-05-30 10:44:41 058 INFO  [AWT-EventQueue-0]UploadJobManager.restoreProgress(205) - []
+2018-05-30 10:44:41 060 INFO  [AWT-EventQueue-0]DownLoadJobManager.restoreProgress(136) - 加载下载队列
+2018-05-30 10:44:41 060 INFO  [AWT-EventQueue-0]DownLoadJobManager.restoreProgress(137) - []
+2018-05-30 21:50:23 133 INFO  [main]AppLauncher.main(30) - App start....
+2018-05-30 21:50:23 136 INFO  [main]AppLauncher.main(41) - Default Charset=UTF-8
+2018-05-30 21:50:23 136 INFO  [main]AppLauncher.main(42) - file.encoding=UTF-8
+2018-05-30 21:50:23 136 INFO  [main]AppLauncher.main(43) - Default Charset=UTF-8
+2018-05-30 21:50:23 137 INFO  [main]AppLauncher.main(44) - Default Charset in Use=UTF8
+2018-05-30 21:50:43 315 INFO  [AWT-EventQueue-0]Constants.<clinit>(37) - 上传队列位置,D:\haixt111\Script\18.5.22KS3及minio已成\KS3sdk\KS3Explorer-2.3.20\KS3Explorer-2.3.20\upload.queue
+2018-05-30 21:50:43 315 INFO  [AWT-EventQueue-0]Constants.<clinit>(38) - 下载队列位置,D:\haixt111\Script\18.5.22KS3及minio已成\KS3sdk\KS3Explorer-2.3.20\KS3Explorer-2.3.20\download.queue
+2018-05-30 21:50:43 317 INFO  [AWT-EventQueue-0]UploadJobManager.<init>(46) - 启动上传线程池,大小为4
+2018-05-30 21:50:43 318 INFO  [AWT-EventQueue-0]DownLoadJobManager.<init>(38) - 启动下载线程池,大小为2
+2018-05-30 21:50:43 321 INFO  [AWT-EventQueue-0]UploadJobManager.restoreProgress(208) - 上传队列不存在
+2018-05-30 21:50:43 321 INFO  [AWT-EventQueue-0]DownLoadJobManager.restoreProgress(140) - 下载队列不存在

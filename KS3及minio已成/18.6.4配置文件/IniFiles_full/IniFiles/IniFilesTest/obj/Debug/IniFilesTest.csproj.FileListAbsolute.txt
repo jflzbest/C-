@@ -1,0 +1,15 @@
+D:\haixt111\Script\KS3及minio已成\18.6.4\IniFiles_full\IniFiles\IniFilesTest\bin\Debug\test.txt
+D:\haixt111\Script\KS3及minio已成\18.6.4\IniFiles_full\IniFiles\IniFilesTest\bin\Debug\win.ini
+D:\haixt111\Script\KS3及minio已成\18.6.4\IniFiles_full\IniFiles\IniFilesTest\bin\Debug\IniFilesTest.exe.config
+D:\haixt111\Script\KS3及minio已成\18.6.4\IniFiles_full\IniFiles\IniFilesTest\bin\Debug\IniFilesTest.exe
+D:\haixt111\Script\KS3及minio已成\18.6.4\IniFiles_full\IniFiles\IniFilesTest\bin\Debug\IniFilesTest.pdb
+D:\haixt111\Script\KS3及minio已成\18.6.4\IniFiles_full\IniFiles\IniFilesTest\bin\Debug\IniFiles.dll
+D:\haixt111\Script\KS3及minio已成\18.6.4\IniFiles_full\IniFiles\IniFilesTest\bin\Debug\IniFiles.pdb
+D:\haixt111\Script\KS3及minio已成\18.6.4\IniFiles_full\IniFiles\IniFilesTest\bin\Debug\IniFiles.xml
+D:\haixt111\Script\KS3及minio已成\18.6.4\IniFiles_full\IniFiles\IniFilesTest\obj\Debug\IniFilesTest.csprojAssemblyReference.cache
+D:\haixt111\Script\KS3及minio已成\18.6.4\IniFiles_full\IniFiles\IniFilesTest\obj\Debug\IniFilesTest.Properties.Resources.resources
+D:\haixt111\Script\KS3及minio已成\18.6.4\IniFiles_full\IniFiles\IniFilesTest\obj\Debug\IniFilesTest.csproj.GenerateResource.cache
+D:\haixt111\Script\KS3及minio已成\18.6.4\IniFiles_full\IniFiles\IniFilesTest\obj\Debug\IniFilesTest.csproj.CoreCompileInputs.cache
+D:\haixt111\Script\KS3及minio已成\18.6.4\IniFiles_full\IniFiles\IniFilesTest\obj\Debug\IniFilesTest.csproj.CopyComplete
+D:\haixt111\Script\KS3及minio已成\18.6.4\IniFiles_full\IniFiles\IniFilesTest\obj\Debug\IniFilesTest.exe
+D:\haixt111\Script\KS3及minio已成\18.6.4\IniFiles_full\IniFiles\IniFilesTest\obj\Debug\IniFilesTest.pdb

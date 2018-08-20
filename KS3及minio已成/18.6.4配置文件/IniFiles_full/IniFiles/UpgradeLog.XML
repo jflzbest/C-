@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="IniFiles">
+</Property><Property Name="Solution File" Value="E:\Documents\Visual Studio 2008\Projects\!Dll\IniFiles\IniFiles.sln">
+</Property><Property Name="Date" Value="2 lipca 2008">
+</Property><Property Name="Time" Value="09:41">
+</Property></Properties><Event ErrorLevel="0" Project="IniFiles" Source="IniFiles.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="IniFiles" Source="IniFiles.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="IniFilesTest" Source="IniFilesTest\IniFilesTest.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="IniFilesTest" Source="IniFilesTest\IniFilesTest.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="IniFiles.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="IniFiles.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="IniFiles" Source="IniFiles.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="IniFilesTest" Source="IniFilesTest\IniFilesTest.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

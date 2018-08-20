@@ -1,0 +1,32 @@
+2018-05-24 11:39:25 366 INFO  [main]AppLauncher.main(30) - App start....
+2018-05-24 11:39:25 370 INFO  [main]AppLauncher.main(41) - Default Charset=UTF-8
+2018-05-24 11:39:25 370 INFO  [main]AppLauncher.main(42) - file.encoding=UTF-8
+2018-05-24 11:39:25 371 INFO  [main]AppLauncher.main(43) - Default Charset=UTF-8
+2018-05-24 11:39:25 371 INFO  [main]AppLauncher.main(44) - Default Charset in Use=UTF8
+2018-05-24 11:40:07 599 INFO  [AWT-EventQueue-0]Constants.<clinit>(37) - 上传队列位置,D:\haixt111\Script\18.5.22KS3\KS3\KS3Explorer-2.3.20\KS3Explorer-2.3.20\upload.queue
+2018-05-24 11:40:07 600 INFO  [AWT-EventQueue-0]Constants.<clinit>(38) - 下载队列位置,D:\haixt111\Script\18.5.22KS3\KS3\KS3Explorer-2.3.20\KS3Explorer-2.3.20\download.queue
+2018-05-24 11:40:07 604 INFO  [AWT-EventQueue-0]UploadJobManager.<init>(46) - 启动上传线程池,大小为2
+2018-05-24 11:40:07 605 INFO  [AWT-EventQueue-0]DownLoadJobManager.<init>(38) - 启动下载线程池,大小为2
+2018-05-24 11:40:07 608 INFO  [AWT-EventQueue-0]UploadJobManager.restoreProgress(208) - 上传队列不存在
+2018-05-24 11:40:07 608 INFO  [AWT-EventQueue-0]DownLoadJobManager.restoreProgress(140) - 下载队列不存在
+2018-05-24 13:10:42 211 INFO  [main]AppLauncher.main(30) - App start....
+2018-05-24 13:10:42 214 INFO  [main]AppLauncher.main(41) - Default Charset=UTF-8
+2018-05-24 13:10:42 214 INFO  [main]AppLauncher.main(42) - file.encoding=UTF-8
+2018-05-24 13:10:42 214 INFO  [main]AppLauncher.main(43) - Default Charset=UTF-8
+2018-05-24 13:10:42 214 INFO  [main]AppLauncher.main(44) - Default Charset in Use=UTF8
+2018-05-24 21:09:36 217 INFO  [AWT-EventQueue-0]UploadJobManager.saveProgress(176) - 上传队列为空, 无需保存.
+2018-05-24 21:09:36 222 INFO  [AWT-EventQueue-0]DownLoadJobManager.saveProgress(109) - 下载队列为空, 无需保存.
+2018-05-24 21:09:36 225 INFO  [AWT-EventQueue-0]ClosingHandler.windowClosing(26) - App is Closing...
+2018-05-24 21:09:42 182 INFO  [main]AppLauncher.main(30) - App start....
+2018-05-24 21:09:42 184 INFO  [main]AppLauncher.main(41) - Default Charset=UTF-8
+2018-05-24 21:09:42 185 INFO  [main]AppLauncher.main(42) - file.encoding=UTF-8
+2018-05-24 21:09:42 185 INFO  [main]AppLauncher.main(43) - Default Charset=UTF-8
+2018-05-24 21:09:42 185 INFO  [main]AppLauncher.main(44) - Default Charset in Use=UTF8
+2018-05-24 21:10:04 899 INFO  [AWT-EventQueue-0]Constants.<clinit>(37) - 上传队列位置,D:\haixt111\Script\18.5.22KS3\KS3\KS3Explorer-2.3.20\KS3Explorer-2.3.20\upload.queue
+2018-05-24 21:10:04 900 INFO  [AWT-EventQueue-0]Constants.<clinit>(38) - 下载队列位置,D:\haixt111\Script\18.5.22KS3\KS3\KS3Explorer-2.3.20\KS3Explorer-2.3.20\download.queue
+2018-05-24 21:10:04 901 INFO  [AWT-EventQueue-0]UploadJobManager.<init>(46) - 启动上传线程池,大小为4
+2018-05-24 21:10:04 903 INFO  [AWT-EventQueue-0]DownLoadJobManager.<init>(38) - 启动下载线程池,大小为2
+2018-05-24 21:10:04 910 INFO  [AWT-EventQueue-0]UploadJobManager.restoreProgress(204) - 加载上传队列
+2018-05-24 21:10:04 910 INFO  [AWT-EventQueue-0]UploadJobManager.restoreProgress(205) - []
+2018-05-24 21:10:04 911 INFO  [AWT-EventQueue-0]DownLoadJobManager.restoreProgress(136) - 加载下载队列
+2018-05-24 21:10:04 911 INFO  [AWT-EventQueue-0]DownLoadJobManager.restoreProgress(137) - []

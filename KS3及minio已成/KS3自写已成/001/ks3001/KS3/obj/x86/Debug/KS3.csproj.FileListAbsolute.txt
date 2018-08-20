@@ -1,0 +1,17 @@
+D:\haixt111\Script\18.5.15上传到S3\ks3sdk-csharp-master\ks3sdk-csharp-master\KS3\bin\Debug\KS3.dll
+D:\haixt111\Script\18.5.15上传到S3\ks3sdk-csharp-master\ks3sdk-csharp-master\KS3\bin\Debug\KS3.pdb
+D:\haixt111\Script\18.5.15上传到S3\ks3sdk-csharp-master\ks3sdk-csharp-master\KS3\obj\x86\Debug\KS3.csprojResolveAssemblyReference.cache
+D:\haixt111\Script\18.5.15上传到S3\ks3sdk-csharp-master\ks3sdk-csharp-master\KS3\obj\x86\Debug\KS3.dll
+D:\haixt111\Script\18.5.15上传到S3\ks3sdk-csharp-master\ks3sdk-csharp-master\KS3\obj\x86\Debug\KS3.pdb
+D:\haixt111\Script\18.5.22\KS3\ks3sdk-csharp-master金山云KS3 SDK\ks3sdk-csharp-master\KS3\bin\Debug\KS3.dll
+D:\haixt111\Script\18.5.22\KS3\ks3sdk-csharp-master金山云KS3 SDK\ks3sdk-csharp-master\KS3\bin\Debug\KS3.pdb
+D:\haixt111\Script\18.5.22\KS3\ks3sdk-csharp-master金山云KS3 SDK\ks3sdk-csharp-master\KS3\obj\x86\Debug\KS3.csprojAssemblyReference.cache
+D:\haixt111\Script\18.5.22\KS3\ks3sdk-csharp-master金山云KS3 SDK\ks3sdk-csharp-master\KS3\obj\x86\Debug\KS3.csproj.CoreCompileInputs.cache
+D:\haixt111\Script\18.5.22\KS3\ks3sdk-csharp-master金山云KS3 SDK\ks3sdk-csharp-master\KS3\obj\x86\Debug\KS3.dll
+D:\haixt111\Script\18.5.22\KS3\ks3sdk-csharp-master金山云KS3 SDK\ks3sdk-csharp-master\KS3\obj\x86\Debug\KS3.pdb
+D:\haixt111\Script\18.5.22ks3\KS3\ks3sdk-csharp-master金山云KS3 SDK\ks3sdk-csharp-master\KS3\bin\Debug\KS3.dll
+D:\haixt111\Script\18.5.22ks3\KS3\ks3sdk-csharp-master金山云KS3 SDK\ks3sdk-csharp-master\KS3\bin\Debug\KS3.pdb
+D:\haixt111\Script\18.5.22ks3\KS3\ks3sdk-csharp-master金山云KS3 SDK\ks3sdk-csharp-master\KS3\obj\x86\Debug\KS3.csprojAssemblyReference.cache
+D:\haixt111\Script\18.5.22ks3\KS3\ks3sdk-csharp-master金山云KS3 SDK\ks3sdk-csharp-master\KS3\obj\x86\Debug\KS3.csproj.CoreCompileInputs.cache
+D:\haixt111\Script\18.5.22ks3\KS3\ks3sdk-csharp-master金山云KS3 SDK\ks3sdk-csharp-master\KS3\obj\x86\Debug\KS3.dll
+D:\haixt111\Script\18.5.22ks3\KS3\ks3sdk-csharp-master金山云KS3 SDK\ks3sdk-csharp-master\KS3\obj\x86\Debug\KS3.pdb

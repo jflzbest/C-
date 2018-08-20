@@ -1,0 +1,26 @@
+2018-05-23 15:00:08 341 INFO  [main]AppLauncher.main(30) - App start....
+2018-05-23 15:00:08 346 INFO  [main]AppLauncher.main(41) - Default Charset=UTF-8
+2018-05-23 15:00:08 346 INFO  [main]AppLauncher.main(42) - file.encoding=UTF-8
+2018-05-23 15:00:08 346 INFO  [main]AppLauncher.main(43) - Default Charset=UTF-8
+2018-05-23 15:00:08 346 INFO  [main]AppLauncher.main(44) - Default Charset in Use=UTF8
+2018-05-23 15:01:50 946 INFO  [main]AppLauncher.main(30) - App start....
+2018-05-23 15:01:50 949 INFO  [main]AppLauncher.main(41) - Default Charset=UTF-8
+2018-05-23 15:01:50 949 INFO  [main]AppLauncher.main(42) - file.encoding=UTF-8
+2018-05-23 15:01:50 949 INFO  [main]AppLauncher.main(43) - Default Charset=UTF-8
+2018-05-23 15:01:50 950 INFO  [main]AppLauncher.main(44) - Default Charset in Use=UTF8
+2018-05-23 15:02:15 935 INFO  [AWT-EventQueue-0]Constants.<clinit>(37) - 上传队列位置,D:\haixt111\Script\18.5.22ks3\KS3\KS3Explorer-2.3.20\KS3Explorer-2.3.20\upload.queue
+2018-05-23 15:02:15 935 INFO  [AWT-EventQueue-0]Constants.<clinit>(38) - 下载队列位置,D:\haixt111\Script\18.5.22ks3\KS3\KS3Explorer-2.3.20\KS3Explorer-2.3.20\download.queue
+2018-05-23 15:02:15 939 INFO  [AWT-EventQueue-0]UploadJobManager.<init>(46) - 启动上传线程池,大小为2
+2018-05-23 15:02:15 940 INFO  [AWT-EventQueue-0]DownLoadJobManager.<init>(38) - 启动下载线程池,大小为2
+2018-05-23 15:02:15 944 INFO  [AWT-EventQueue-0]UploadJobManager.restoreProgress(208) - 上传队列不存在
+2018-05-23 15:02:15 944 INFO  [AWT-EventQueue-0]DownLoadJobManager.restoreProgress(140) - 下载队列不存在
+2018-05-23 19:09:36 859 INFO  [main]AppLauncher.main(30) - App start....
+2018-05-23 19:09:36 862 INFO  [main]AppLauncher.main(41) - Default Charset=UTF-8
+2018-05-23 19:09:36 862 INFO  [main]AppLauncher.main(42) - file.encoding=UTF-8
+2018-05-23 19:09:36 862 INFO  [main]AppLauncher.main(43) - Default Charset=UTF-8
+2018-05-23 19:09:36 863 INFO  [main]AppLauncher.main(44) - Default Charset in Use=UTF8
+2018-05-23 22:21:26 685 INFO  [main]AppLauncher.main(30) - App start....
+2018-05-23 22:21:26 688 INFO  [main]AppLauncher.main(41) - Default Charset=UTF-8
+2018-05-23 22:21:26 688 INFO  [main]AppLauncher.main(42) - file.encoding=UTF-8
+2018-05-23 22:21:26 688 INFO  [main]AppLauncher.main(43) - Default Charset=UTF-8
+2018-05-23 22:21:26 688 INFO  [main]AppLauncher.main(44) - Default Charset in Use=UTF8

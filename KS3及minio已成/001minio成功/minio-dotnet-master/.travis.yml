@@ -1,0 +1,14 @@
+language: csharp
+dist: trusty
+sudo: required
+mono: none
+dotnet: 1.0.4
+branches:
+  only:
+    - master
+install:
+
+script:
+- dotnet restore /p:Configuration=Release.Core 
+- dotnet publish  --output out /p:Configuration=Release.Core
+- dotnet Minio.Functional.Tests/bin/Release.Core/netcoreapp1.1/Minio.Functional.Tests.dll

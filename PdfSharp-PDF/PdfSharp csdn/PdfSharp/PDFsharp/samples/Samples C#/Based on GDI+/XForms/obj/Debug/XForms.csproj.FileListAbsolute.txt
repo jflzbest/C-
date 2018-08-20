@@ -1,0 +1,11 @@
+H:\haixt111\Script\18.6.27Word转pdf\PdfSharp csdn\PdfSharp\PDFsharp\samples\Samples C#\Based on GDI+\XForms\bin\Debug\XForms.exe.config
+H:\haixt111\Script\18.6.27Word转pdf\PdfSharp csdn\PdfSharp\PDFsharp\samples\Samples C#\Based on GDI+\XForms\bin\Debug\XForms.exe
+H:\haixt111\Script\18.6.27Word转pdf\PdfSharp csdn\PdfSharp\PDFsharp\samples\Samples C#\Based on GDI+\XForms\bin\Debug\XForms.pdb
+H:\haixt111\Script\18.6.27Word转pdf\PdfSharp csdn\PdfSharp\PDFsharp\samples\Samples C#\Based on GDI+\XForms\bin\Debug\PdfSharp.dll
+H:\haixt111\Script\18.6.27Word转pdf\PdfSharp csdn\PdfSharp\PDFsharp\samples\Samples C#\Based on GDI+\XForms\bin\Debug\PdfSharp.pdb
+H:\haixt111\Script\18.6.27Word转pdf\PdfSharp csdn\PdfSharp\PDFsharp\samples\Samples C#\Based on GDI+\XForms\bin\Debug\PdfSharp.xml
+H:\haixt111\Script\18.6.27Word转pdf\PdfSharp csdn\PdfSharp\PDFsharp\samples\Samples C#\Based on GDI+\XForms\bin\Debug\de\PdfSharp.resources.dll
+H:\haixt111\Script\18.6.27Word转pdf\PdfSharp csdn\PdfSharp\PDFsharp\samples\Samples C#\Based on GDI+\XForms\obj\Debug\XForms.csproj.CoreCompileInputs.cache
+H:\haixt111\Script\18.6.27Word转pdf\PdfSharp csdn\PdfSharp\PDFsharp\samples\Samples C#\Based on GDI+\XForms\obj\Debug\XForms.csproj.CopyComplete
+H:\haixt111\Script\18.6.27Word转pdf\PdfSharp csdn\PdfSharp\PDFsharp\samples\Samples C#\Based on GDI+\XForms\obj\Debug\XForms.exe
+H:\haixt111\Script\18.6.27Word转pdf\PdfSharp csdn\PdfSharp\PDFsharp\samples\Samples C#\Based on GDI+\XForms\obj\Debug\XForms.pdb

@@ -1,0 +1,16 @@
+H:\haixt111\Script\word写PDF\08（8.7.6）0k图片（后加文字加换行）可以\xiepdfzx\xiepdf\xiepdf\bin\Debug\xiepdf.exe.config
+H:\haixt111\Script\word写PDF\08（8.7.6）0k图片（后加文字加换行）可以\xiepdfzx\xiepdf\xiepdf\bin\Debug\xiepdf.exe
+H:\haixt111\Script\word写PDF\08（8.7.6）0k图片（后加文字加换行）可以\xiepdfzx\xiepdf\xiepdf\bin\Debug\xiepdf.pdb
+H:\haixt111\Script\word写PDF\08（8.7.6）0k图片（后加文字加换行）可以\xiepdfzx\xiepdf\xiepdf\bin\Debug\PdfSharp.Charting.dll
+H:\haixt111\Script\word写PDF\08（8.7.6）0k图片（后加文字加换行）可以\xiepdfzx\xiepdf\xiepdf\bin\Debug\PdfSharp.dll
+H:\haixt111\Script\word写PDF\08（8.7.6）0k图片（后加文字加换行）可以\xiepdfzx\xiepdf\xiepdf\bin\Debug\PdfSharp.xml
+H:\haixt111\Script\word写PDF\08（8.7.6）0k图片（后加文字加换行）可以\xiepdfzx\xiepdf\xiepdf\bin\Debug\PdfSharp.Charting.xml
+H:\haixt111\Script\word写PDF\08（8.7.6）0k图片（后加文字加换行）可以\xiepdfzx\xiepdf\xiepdf\bin\Debug\de\PdfSharp.resources.dll
+H:\haixt111\Script\word写PDF\08（8.7.6）0k图片（后加文字加换行）可以\xiepdfzx\xiepdf\xiepdf\bin\Debug\de\PdfSharp.Charting.resources.dll
+H:\haixt111\Script\word写PDF\08（8.7.6）0k图片（后加文字加换行）可以\xiepdfzx\xiepdf\xiepdf\obj\Debug\xiepdf.csprojAssemblyReference.cache
+H:\haixt111\Script\word写PDF\08（8.7.6）0k图片（后加文字加换行）可以\xiepdfzx\xiepdf\xiepdf\obj\Debug\xiepdf.Properties.Resources.resources
+H:\haixt111\Script\word写PDF\08（8.7.6）0k图片（后加文字加换行）可以\xiepdfzx\xiepdf\xiepdf\obj\Debug\xiepdf.csproj.GenerateResource.cache
+H:\haixt111\Script\word写PDF\08（8.7.6）0k图片（后加文字加换行）可以\xiepdfzx\xiepdf\xiepdf\obj\Debug\xiepdf.csproj.CoreCompileInputs.cache
+H:\haixt111\Script\word写PDF\08（8.7.6）0k图片（后加文字加换行）可以\xiepdfzx\xiepdf\xiepdf\obj\Debug\xiepdf.csproj.CopyComplete
+H:\haixt111\Script\word写PDF\08（8.7.6）0k图片（后加文字加换行）可以\xiepdfzx\xiepdf\xiepdf\obj\Debug\xiepdf.exe
+H:\haixt111\Script\word写PDF\08（8.7.6）0k图片（后加文字加换行）可以\xiepdfzx\xiepdf\xiepdf\obj\Debug\xiepdf.pdb

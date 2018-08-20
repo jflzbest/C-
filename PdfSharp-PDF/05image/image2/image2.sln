@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "image2", "image2\image2.csproj", "{FA5FF440-47CB-4603-86EA-02D3DE0D5A39}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PDFSharp.ExtractImagesFromPDF", "..\..\06csdn\PDFSharp.ExtractImagesFromPDF\PDFSharp.ExtractImagesFromPDF.csproj", "{744B5ACC-D0F8-4F39-863E-6247643463DB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FA5FF440-47CB-4603-86EA-02D3DE0D5A39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA5FF440-47CB-4603-86EA-02D3DE0D5A39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA5FF440-47CB-4603-86EA-02D3DE0D5A39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA5FF440-47CB-4603-86EA-02D3DE0D5A39}.Release|Any CPU.Build.0 = Release|Any CPU
+		{744B5ACC-D0F8-4F39-863E-6247643463DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{744B5ACC-D0F8-4F39-863E-6247643463DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{744B5ACC-D0F8-4F39-863E-6247643463DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{744B5ACC-D0F8-4F39-863E-6247643463DB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9BF90D25-4E19-44FA-A206-75BECE72EF23}
+	EndGlobalSection
+EndGlobal

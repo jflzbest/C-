@@ -1,0 +1,10 @@
+H:\haixt111\Script\word转PDF\07csdn2\C#利用pdfsharp转换图片为pdf文件\ImageToPdf\ImageToPdf\bin\Debug\ImageToPdf.exe
+H:\haixt111\Script\word转PDF\07csdn2\C#利用pdfsharp转换图片为pdf文件\ImageToPdf\ImageToPdf\bin\Debug\ImageToPdf.pdb
+H:\haixt111\Script\word转PDF\07csdn2\C#利用pdfsharp转换图片为pdf文件\ImageToPdf\ImageToPdf\obj\Debug\ImageToPdf.csprojAssemblyReference.cache
+H:\haixt111\Script\word转PDF\07csdn2\C#利用pdfsharp转换图片为pdf文件\ImageToPdf\ImageToPdf\obj\Debug\ImageToPdf.MainForm.resources
+H:\haixt111\Script\word转PDF\07csdn2\C#利用pdfsharp转换图片为pdf文件\ImageToPdf\ImageToPdf\obj\Debug\ImageToPdf.Properties.Resources.resources
+H:\haixt111\Script\word转PDF\07csdn2\C#利用pdfsharp转换图片为pdf文件\ImageToPdf\ImageToPdf\obj\Debug\ImageToPdf.csproj.GenerateResource.cache
+H:\haixt111\Script\word转PDF\07csdn2\C#利用pdfsharp转换图片为pdf文件\ImageToPdf\ImageToPdf\obj\Debug\ImageToPdf.csproj.CoreCompileInputs.cache
+H:\haixt111\Script\word转PDF\07csdn2\C#利用pdfsharp转换图片为pdf文件\ImageToPdf\ImageToPdf\obj\Debug\ImageToPdf.csproj.CopyComplete
+H:\haixt111\Script\word转PDF\07csdn2\C#利用pdfsharp转换图片为pdf文件\ImageToPdf\ImageToPdf\obj\Debug\ImageToPdf.exe
+H:\haixt111\Script\word转PDF\07csdn2\C#利用pdfsharp转换图片为pdf文件\ImageToPdf\ImageToPdf\obj\Debug\ImageToPdf.pdb

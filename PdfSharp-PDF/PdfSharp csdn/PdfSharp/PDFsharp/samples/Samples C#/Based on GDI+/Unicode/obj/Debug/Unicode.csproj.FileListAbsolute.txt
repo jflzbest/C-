@@ -1,0 +1,12 @@
+H:\haixt111\Script\18.6.27Word转pdf\PdfSharp csdn\PdfSharp\PDFsharp\samples\Samples C#\Based on GDI+\Unicode\bin\Debug\Unicode.exe.config
+H:\haixt111\Script\18.6.27Word转pdf\PdfSharp csdn\PdfSharp\PDFsharp\samples\Samples C#\Based on GDI+\Unicode\bin\Debug\Unicode.exe
+H:\haixt111\Script\18.6.27Word转pdf\PdfSharp csdn\PdfSharp\PDFsharp\samples\Samples C#\Based on GDI+\Unicode\bin\Debug\Unicode.pdb
+H:\haixt111\Script\18.6.27Word转pdf\PdfSharp csdn\PdfSharp\PDFsharp\samples\Samples C#\Based on GDI+\Unicode\bin\Debug\PdfSharp.dll
+H:\haixt111\Script\18.6.27Word转pdf\PdfSharp csdn\PdfSharp\PDFsharp\samples\Samples C#\Based on GDI+\Unicode\bin\Debug\PdfSharp.pdb
+H:\haixt111\Script\18.6.27Word转pdf\PdfSharp csdn\PdfSharp\PDFsharp\samples\Samples C#\Based on GDI+\Unicode\bin\Debug\PdfSharp.xml
+H:\haixt111\Script\18.6.27Word转pdf\PdfSharp csdn\PdfSharp\PDFsharp\samples\Samples C#\Based on GDI+\Unicode\bin\Debug\de\PdfSharp.resources.dll
+H:\haixt111\Script\18.6.27Word转pdf\PdfSharp csdn\PdfSharp\PDFsharp\samples\Samples C#\Based on GDI+\Unicode\obj\Debug\Unicode.csprojAssemblyReference.cache
+H:\haixt111\Script\18.6.27Word转pdf\PdfSharp csdn\PdfSharp\PDFsharp\samples\Samples C#\Based on GDI+\Unicode\obj\Debug\Unicode.csproj.CoreCompileInputs.cache
+H:\haixt111\Script\18.6.27Word转pdf\PdfSharp csdn\PdfSharp\PDFsharp\samples\Samples C#\Based on GDI+\Unicode\obj\Debug\Unicode.csproj.CopyComplete
+H:\haixt111\Script\18.6.27Word转pdf\PdfSharp csdn\PdfSharp\PDFsharp\samples\Samples C#\Based on GDI+\Unicode\obj\Debug\Unicode.exe
+H:\haixt111\Script\18.6.27Word转pdf\PdfSharp csdn\PdfSharp\PDFsharp\samples\Samples C#\Based on GDI+\Unicode\obj\Debug\Unicode.pdb

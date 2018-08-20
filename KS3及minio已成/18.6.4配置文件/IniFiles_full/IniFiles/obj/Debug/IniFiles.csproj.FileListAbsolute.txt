@@ -1,0 +1,7 @@
+D:\haixt111\Script\KS3及minio已成\18.6.4\IniFiles_full\IniFiles\bin\Debug\IniFiles.XML
+D:\haixt111\Script\KS3及minio已成\18.6.4\IniFiles_full\IniFiles\bin\Debug\IniFiles.dll
+D:\haixt111\Script\KS3及minio已成\18.6.4\IniFiles_full\IniFiles\bin\Debug\IniFiles.pdb
+D:\haixt111\Script\KS3及minio已成\18.6.4\IniFiles_full\IniFiles\obj\Debug\IniFiles.csprojAssemblyReference.cache
+D:\haixt111\Script\KS3及minio已成\18.6.4\IniFiles_full\IniFiles\obj\Debug\IniFiles.csproj.CoreCompileInputs.cache
+D:\haixt111\Script\KS3及minio已成\18.6.4\IniFiles_full\IniFiles\obj\Debug\IniFiles.dll
+D:\haixt111\Script\KS3及minio已成\18.6.4\IniFiles_full\IniFiles\obj\Debug\IniFiles.pdb

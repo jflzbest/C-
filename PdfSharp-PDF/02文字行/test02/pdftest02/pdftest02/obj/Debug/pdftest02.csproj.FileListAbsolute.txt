@@ -1,0 +1,4 @@
+H:\haixt111\Script\word转PDF\02\test02\pdftest02\pdftest02\obj\Debug\pdftest02.csprojAssemblyReference.cache
+H:\haixt111\Script\word转PDF\02\test02\pdftest02\pdftest02\obj\Debug\pdftest02.Properties.Resources.resources
+H:\haixt111\Script\word转PDF\02\test02\pdftest02\pdftest02\obj\Debug\pdftest02.csproj.GenerateResource.cache
+H:\haixt111\Script\word转PDF\02\test02\pdftest02\pdftest02\obj\Debug\pdftest02.csproj.CoreCompileInputs.cache

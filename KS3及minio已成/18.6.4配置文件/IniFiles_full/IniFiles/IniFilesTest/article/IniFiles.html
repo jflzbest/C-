@@ -1,0 +1,368 @@
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head><title>
+	CodeProject: Article HTML. Free source code and programming help
+</title><link rel="stylesheet" type="text/css" href="/App_Themes/NetCommunity/CodeProject.css" /></head>
+<base href="http://www.codeproject.com/KB/recipes/" />
+<body>
+    <!--  HTML for article "INI Files" by gajatko\nURL: http://www.codeproject.com/KB/recipes/INI_Files.aspx
+Copyright 2007 by gajatko\nAll formatting, additions and  alterations Copyright © CodeProject, 1999-2008 -->
+	
+    <p><b>Please choose 'View Source' in your browser to view the HTML, or  
+File | Save to save this file to your hard drive for editing.</b></p>
+<hr class="Divider subdue" />
+    <div>
+    <span id="ArticleContent">
+
+<ul class="download">
+<li><a href="INI_Files/IniFiles_full.zip">Download whole solution and demo - 114.0 KB</a> </li>
+
+<li><a href="INI_Files/IniFiles_src.zip">Download source - 13.2 KB</a> </li>
+</ul>
+
+<pre lang="text">; for 16-bit app support
+[fonts]
+[extensions]
+[mci extensions]
+[files]
+[Mail]
+MAPI=1
+CMC=1
+CMCDLLNAME32=mapi32.dll
+CMCDLLNAME=mapi.dll
+MAPIX=1
+MAPIXVER=1.0.0.1
+OLEMessaging=1
+[MCI Extensions.BAK]
+aif=MPEGVideo
+aifc=MPEGVideo
+aiff=MPEGVideo
+asf=MPEGVideo
+asx=MPEGVideo
+au=MPEGVideo
+m1v=MPEGVideo
+...</pre>
+
+<p>(My <em>win.ini</em>) </p>
+
+<h2>Introduction</h2>
+
+<p>It is strange to write a parser of INI files each time it is needed. Why not use an existing one, especially if it is good? I give you a class library that has the following features: </p>
+
+<ul>
+<li>Parses INI files using given format directions. </li>
+
+<li>Edits them easily using one single class. </li>
+
+<li>Automatically finds out a formatting convention. </li>
+
+<li>Adds commentaries to the sections and values just by setting a property <code>Comment</code>. </li>
+
+<li>Writes a file to the disc, preserving its original format. </li>
+
+<li>Enjoys richly documented code. </li>
+</ul>
+
+<h2>Background</h2>
+
+<p>INI [=initialization] files are used to store settings that define the start-up state of some programs. Alternatively, they can just contain configuration data. Currently they can be found in special folders (<em>desktop.ini</em>) like &quot;My Documents.&quot; A lot of them exist in the Windows root folder, e.g. <code>C:\Windows\win.ini</code>. In this article, I will use the following terminology: </p>
+
+<pre lang="text">[Abcd]  &lt;- &quot;Section&quot;
+Number=188  &lt;- &quot;Key&quot; (vel &quot;Value name&quot;) and &quot;Value&quot;</pre>
+
+<h2>Using the Code</h2>
+
+<p>I will present three main usage guides of my library: User-Mode, Hardcore-Mode and Light-Mode.</p>
+
+<h3>User-Mode</h3>
+
+<p>The <code>IniFile</code> namespace contains one class: <code>IniFile</code>. It represents an object model of an INI file, which stores a whole structure in memory. Usage of <code>IniFile</code> is extremely simple. </p>
+
+<pre lang="cs">IniFile file = new IniFile();
+// Adds a new section with one value
+
+file[&quot;LastUser&quot;][&quot;Name&quot;] = &quot;Gajatko&quot;;
+// Save to disc
+
+file.Save(&quot;test.txt&quot;);</pre>
+
+<p>This will give the following output: </p>
+
+<pre lang="text">[LastUser]
+Name=Gajatko</pre>
+
+<p>The indexer of <code>IniFile</code> returns an object that also has an indexer. However, it also has many other features. For example, it has a <code>Comment</code> property: </p>
+
+<pre lang="cs">file[&quot;LastUser&quot;].Comment =
+@&quot;This section contains information about user
+which logged in at previous program run&quot;;
+file[&quot;LastUser&quot;].SetComment(&quot;Name&quot;, &quot;Name of user&quot;);</pre>
+
+<p>Result: </p>
+
+<pre lang="text">;This section contains information about user
+;which has logged in at previous program run
+[LastUser]
+;Name of user
+Name=Gajatko</pre>
+
+<p>We can freely manipulate values and sections: </p>
+
+<pre lang="cs">// Rename sections and keys
+
+file[&quot;LastUser&quot;].Name = &quot;RecentUser&quot;;
+file[&quot;RecentUser&quot;].RenameKey(&quot;Name&quot;, &quot;Login&quot;);
+// Get names of all section:
+
+string[] sections = file.GetSectionNames();
+// Set existing values:
+
+file[&quot;RecentUser&quot;][&quot;Login&quot;] = &quot;Chuck&quot;;
+// Override existing comment:
+
+file[&quot;RecentUser&quot;].Comment = &quot;New Comment&quot;;</pre>
+
+<p>Result: </p>
+
+<pre lang="text">;New Comment
+[RecentUser]
+;Name of user
+Login=Chuck</pre>
+
+<p>Also, inline comments are supported: </p>
+
+<pre lang="cs">file[&quot;RecentUser&quot;].InlineComment = &quot;An inline thing&quot;;</pre>
+
+<p>Result: </p>
+
+<pre lang="text">[RecentUser]   ;An inline thing</pre>
+
+<p>We can save all changes to a file and read from it, as well: </p>
+
+<pre lang="cs">file.Save(&quot;test.txt&quot;);
+file = IniFile.FromFile(&quot;test.txt&quot;);</pre>
+
+<p>More methods and properties will appear in the auto-completion service in Visual Studio. They are all commented using <code>Summary</code> blocks. Files edited with the <code>IniFile</code> class will preserve their formatting. </p>
+
+<p>Concluding: the User-Mode is cool, isn't it? </p>
+
+<h3>Hardcore-Mode</h3>
+
+<h4>Classes</h4>
+
+<p>Actually, this library contains 10 classes. The first two are implementations of <code>StreamReader</code> and <code>StreamWriter</code>: </p>
+
+<ul>
+<li><code>IniFileReader</code> - Reads and parses a text file. </li>
+
+<li><code>IniFileWriter</code> - Writes INI file elements to a disc. </li>
+</ul>
+
+<p>The second group of classes is used by User-Mode: </p>
+
+<ul>
+
+<li><code>IniFile</code> - Contains the whole INI file in memory and enables easy access to it. </li>
+
+<li><code>IniFileSection</code> - Represents a section and its values. </li>
+</ul>
+
+<p>An INI file's <code>Element</code>s are the core objects of the <code>IniFiles</code> namespace. Usually they represent single lines of a file, but sometimes more. </p>
+
+<ul>
+<li><code>IniFileSectionStart</code> - Represents a beginning line of a section, like &quot;[LastUser]&quot;. </li>
+
+<li><code>IniFileValue</code> - Represents a single line with a value, like &quot;Name=Gajatko&quot;. </li>
+
+<li><code>IniFileBlankLine</code> - Represents one or more blank lines. The actual number of them is specified in the <code>Amount</code> property. </li>
+
+<li><code>IniFileComment</code> - Represents one or more commentary lines. </li>
+</ul>
+
+<p>The class <code>IniFileElement</code> is a base class for them all. It has standard properties that are used by <code>Reader</code> and <code>Writer</code>: </p>
+
+<ul>
+<li><code>Line</code> - An actual representation of the object in the INI file. The name is a little confusing because sometimes the <code>Line</code> contains more than one line. </li>
+
+<li><code>Content</code> - Similar to <code>Line</code>, but without indentation. </li>
+
+<li><code>Indentation</code> - A string of all white spaces (tabs, spaces) preceding a meaningful content. </li>
+
+<li><code>Formatting</code> - A formatting string specific to a particular type of INI file element. </li>
+</ul>
+
+<p><code>IniFileSettigs</code> is a static class that contains all format settings used by other parts of the library. Sample settings are: </p>
+
+<ul>
+
+<li><code>PreserveFormatting</code> - Default true. If set to false, the <code>Format()</code> method will be called for all INI file elements while writing a file. The demo shows how it works. </li>
+
+<li><code>CommentChars</code> - Array of strings that begin a comment line, by default <code>{ &quot;;&quot;, &quot;#&quot; }</code>. When adding new comments, the first string in the array is used. </li>
+
+<li><code>GroupElements</code> - As said before, when the parser runs into a multiline commentary or blank lines, it will group them into one object. Setting this property to false will prevent this practice. </li>
+
+<li><code>QuoteChar</code> - A nullable <code>char</code>. Default value is null, but can be set to e.g. &quot; (double qoutation mark). Then all values will be surrounded by quotes. However, either calling the <code>Format()</code> method or setting <code>PreserveFormatting</code> to false will be necessary. </li>
+
+<li><code>DefaultValueFormatting</code> - A spectacular property that defines a default appearance of values. The default is &quot;?=$ ;&quot; which causes values look like this: &quot;Key=Value ;comment&quot;. </li>
+
+<li>... and much more (totally 16 properties). </li>
+</ul>
+
+<h4>Usage</h4>
+
+<p>What can you do with the Hardcore-Mode? What can you gain? </p>
+
+<ul>
+<li>Be faster. </li>
+
+<li>Read only the values that you need. </li>
+
+<li>Feel like a Hardcore Boss. </li>
+</ul>
+
+<p><strong>Sample scenario #1:</strong> You want to extract a single section from an INI file instead of loading a whole file into a dummy <code>ConfigFile</code> class from User-Mode. We will use <code>IniFileReader</code> here. Our goal is to extract the &quot;Mail&quot; section from <em>win.ini</em> to the separate file without loading all other sections. </p>
+
+<pre lang="cs">IniFileReader reader = new IniFileReader(&quot;win.ini&quot;);
+// Find the section without parsing lines before it.
+
+reader.GotoSection(&quot;Mail&quot;);
+// Get section's content
+
+List&lt;IniFileElement&gt; sectionElements = reader.ReadSection();
+// Do not load the rest. Close the stream.
+
+reader.Close();
+
+// Write the section.
+
+IniFileWriter writer = new IniFileWriter(&quot;mail.ini&quot;);
+writer.WriteElements(sectionElements);
+writer.Close();</pre>
+
+<p>A very good idea is to create an <code>IniFile</code> object from the extracted collection: </p>
+
+<pre lang="cs">IniFile file = IniFile.FromElements(sectionElements)</pre>
+
+<p>Such an <code>IniFile</code> would contain one section: the extracted &quot;Mail.&quot; This enables a whole set of methods specific to User-Mode, including lazy commenting entries and easy modifying values. </p>
+
+<p><strong>Sample scenario #2:</strong> You want to get just ONE value from a file. Let's say that this value is &quot;OLEMessaging&quot; from the &quot;Mail&quot; section in <em>win.ini</em>. </p>
+
+<pre lang="cs">IniFileReader reader = new IniFileReader(&quot;win.ini&quot;);
+reader.GotoSection(&quot;Mail&quot;);
+// I do not remember how olemessaging's characters exactly look,
+
+// so I set case-sensitivity to false (default true).
+
+IniFileSettings.CaseSensitive = false;
+IniFileValue val = reader.GotoValue(&quot;olemessaging&quot;);
+reader.Close();
+string oleMsg = val.Value;
+// ... (do something with oleMsg).</pre>
+
+<p>...and so on.</p>
+
+<h3>Light-Mode</h3>
+
+<p><code>IniFileReader</code> and <code>IniFileWriter</code> are fast. <code>IniFile</code> is a bit slower, although the main slowdown appears while loading a file, not performing operations. For yet higher performance, I have written an additional class in a separate namespace: <code>IniFiles.Light.IniFileLight</code>. It enables parsing and writing of INI files. However, it totally ignores formatting and blank lines. Everything will be written using the following pattern: </p>
+
+<pre lang="text">[Section]
+Key=Value</pre>
+
+<p>It enables commenting values, but only single-line. The usage is similar to the User-Mode: </p>
+
+<pre lang="text">// Create a new file
+Gajatko.IniFiles.Light.IniFileLight light = 
+    new Gajatko.IniFiles.Light.IniFileLight();
+// Set some data
+light.Sections.Add(&quot;Data&quot;, new Dictionary&lt;string, string&gt;());
+light.Sections[&quot;Data&quot;].Add(&quot;Name&quot;, &quot;Mickey&quot;);
+light.Sections[&quot;Data&quot;].Add(&quot;Surname&quot;, &quot;Mouse&quot;);
+// Add comments
+light.Comments.Add(&quot;Data.Surname&quot;, &quot;This is a surname&quot;);
+light.Comments.Add(&quot;Data&quot;, &quot;This is a section&quot;);
+// Set a footer
+light.Comments.Add(&quot;&quot;, &quot;Footer&quot;);
+// Save to a file
+light.Save(&quot;light.txt&quot;);</pre>
+
+<p>Output: </p>
+
+<pre lang="text">;This is a section
+[Data]
+Name=Mickey
+;This is a surname
+Surname=Mouse
+;Footer</pre>
+
+<p>You know the limitations of such a solution, so it's up to you which variant you use. I put the <code>IniFileLight</code> in a separate namespace because if somebody wants to use it, he probably wouldn't like to have all my 10 classes in the auto-completion list. </p>
+
+<h2>Format Preserving</h2>
+
+<p>Nobody forces you to use this <code>IniFiles</code>'s skill; it can run in the background and not bother you. However, if you want to make your INI files look as originally or you are parsing ones which look as originally, I tell you that my code will not loose any content of a file. How much does the parser preserve the format? Here are some samples. </p>
+
+<pre lang="text">[Section1]
+    Key1=  Value1</pre>
+
+<p>Look how Key1 looks. After the equality sign there are two spaces. If you add a new value to Section1, it will preserve this appearance and indentation: </p>
+
+<pre lang="text">[Section1]
+    Key1=  Value1
+    NewKey=  NewValue</pre>
+
+<p>Section1 is a little indented. If you add a new section, it will be a little indented too. </p>
+
+<pre lang="text">[Section1]
+    Key1=  Value1
+    NewKey=  NewValue
+  [NewSection]</pre>
+
+<p>If you now add a value to Section2, it will look the same as the last value in the previous section: </p>
+
+<pre lang="text">[Section1]
+    Key1=  Value1
+    NewKey=  NewValue
+  [NewSection]
+    FreshKey=  FreshValue</pre>
+
+<p>Let's consider a section with such an appearance: </p>
+
+<pre lang="text">[ Section1 ]
+Key1=Value1</pre>
+
+<p>Then a new added one will follow the template: </p>
+
+<pre lang="text">[ Section1 ]
+Key1=Value1
+[ New Section ]</pre>
+
+<p>Also, indentation of comments and blank lines are saved. There are situations when a conflict appears. Here is one of them: If quotes are on (<code>IniFileSettings.QuoteChars = &quot;\&quot;&quot;</code>), then we can imagine the following piece: </p>
+
+<pre lang="text">[Section1]
+Key1=&quot;Value1&quot; some text</pre>
+
+<p>It is obvious that the value of Key1 is 'Value1', not 'Value1&quot; some text' or something like that. The parser knows that, so it interprets ' some text' as a <code>TextOnTheRight</code>. This also will be preserved. However, this behaviour can be changed through the <code>IniFileSettings.AllowTextOnTheRight</code> property. </p>
+
+<p>Format preserving can be turned off by switching <code>IniFileSettings.PreserveFormatting</code> to false. However, you may want to save the indentation of elements. Then call the <code>IniFile.Format(false)</code> method to format everything excluding leading spaces, or <code>IniFile[<em>sectionName</em>].Format(false)</code> to format the specified section. </p>
+
+<p>Download the demo to learn more. </p>
+
+<h2>Concluding</h2>
+
+<p>INI files are not used as often as in the old bad DOS times. Now XML is the king. However, they can still be found in various places and sometimes we have to go back to them. My library is the same for INI files as ASP is for HTML controls, where simple tags on the client side have a rich object model on the server. Being very advanced in its core gives it simple and fast access to all INI file features.</p>
+
+<p>Enjoy the <code>IniFiles</code> library!</p>
+
+<h2>History</h2>
+
+<ul>
+<li>21 August, 2007 -- Original version posted </li>
+<li>2 July, 2008 -- Bugs fixed, thaks to Victor Vogelpoel </li>
+</ul>
+
+
+
+</span>
+    </div>
+ 
+</body>
+</html>

@@ -1,0 +1,10 @@
+H:\haixt111\Script\word写PDF\18724\test\test\test\bin\Debug\test.exe.config
+H:\haixt111\Script\word写PDF\18724\test\test\test\bin\Debug\test.exe
+H:\haixt111\Script\word写PDF\18724\test\test\test\bin\Debug\test.pdb
+H:\haixt111\Script\word写PDF\18724\test\test\test\obj\Debug\test.csprojAssemblyReference.cache
+H:\haixt111\Script\word写PDF\18724\test\test\test\obj\Debug\test.Form1.resources
+H:\haixt111\Script\word写PDF\18724\test\test\test\obj\Debug\test.Properties.Resources.resources
+H:\haixt111\Script\word写PDF\18724\test\test\test\obj\Debug\test.csproj.GenerateResource.cache
+H:\haixt111\Script\word写PDF\18724\test\test\test\obj\Debug\test.csproj.CoreCompileInputs.cache
+H:\haixt111\Script\word写PDF\18724\test\test\test\obj\Debug\test.exe
+H:\haixt111\Script\word写PDF\18724\test\test\test\obj\Debug\test.pdb

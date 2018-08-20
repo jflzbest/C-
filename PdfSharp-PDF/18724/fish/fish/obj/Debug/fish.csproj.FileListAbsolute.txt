@@ -1,0 +1,10 @@
+H:\haixt111\Script\word写PDF\18724\fish\fish\bin\Debug\fish.exe.config
+H:\haixt111\Script\word写PDF\18724\fish\fish\bin\Debug\fish.exe
+H:\haixt111\Script\word写PDF\18724\fish\fish\bin\Debug\fish.pdb
+H:\haixt111\Script\word写PDF\18724\fish\fish\obj\Debug\fish.csprojAssemblyReference.cache
+H:\haixt111\Script\word写PDF\18724\fish\fish\obj\Debug\fish.Form1.resources
+H:\haixt111\Script\word写PDF\18724\fish\fish\obj\Debug\fish.Properties.Resources.resources
+H:\haixt111\Script\word写PDF\18724\fish\fish\obj\Debug\fish.csproj.GenerateResource.cache
+H:\haixt111\Script\word写PDF\18724\fish\fish\obj\Debug\fish.csproj.CoreCompileInputs.cache
+H:\haixt111\Script\word写PDF\18724\fish\fish\obj\Debug\fish.exe
+H:\haixt111\Script\word写PDF\18724\fish\fish\obj\Debug\fish.pdb

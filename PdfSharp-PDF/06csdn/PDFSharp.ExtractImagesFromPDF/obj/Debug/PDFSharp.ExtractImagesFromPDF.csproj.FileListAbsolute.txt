@@ -1,0 +1,13 @@
+H:\haixt111\Script\word转PDF\06csdn\PDFSharp.ExtractImagesFromPDF\bin\Debug\PDFSharp.pdf2image.exe
+H:\haixt111\Script\word转PDF\06csdn\PDFSharp.ExtractImagesFromPDF\bin\Debug\PDFSharp.pdf2image.pdb
+H:\haixt111\Script\word转PDF\06csdn\PDFSharp.ExtractImagesFromPDF\bin\Debug\PdfSharp.Charting.dll
+H:\haixt111\Script\word转PDF\06csdn\PDFSharp.ExtractImagesFromPDF\bin\Debug\PdfSharp.dll
+H:\haixt111\Script\word转PDF\06csdn\PDFSharp.ExtractImagesFromPDF\bin\Debug\PdfSharp.xml
+H:\haixt111\Script\word转PDF\06csdn\PDFSharp.ExtractImagesFromPDF\bin\Debug\PdfSharp.Charting.xml
+H:\haixt111\Script\word转PDF\06csdn\PDFSharp.ExtractImagesFromPDF\bin\Debug\de\PdfSharp.resources.dll
+H:\haixt111\Script\word转PDF\06csdn\PDFSharp.ExtractImagesFromPDF\bin\Debug\de\PdfSharp.Charting.resources.dll
+H:\haixt111\Script\word转PDF\06csdn\PDFSharp.ExtractImagesFromPDF\obj\Debug\PDFSharp.ExtractImagesFromPDF.csprojAssemblyReference.cache
+H:\haixt111\Script\word转PDF\06csdn\PDFSharp.ExtractImagesFromPDF\obj\Debug\PDFSharp.ExtractImagesFromPDF.csproj.CoreCompileInputs.cache
+H:\haixt111\Script\word转PDF\06csdn\PDFSharp.ExtractImagesFromPDF\obj\Debug\PDFSharp.ExtractImagesFromPDF.csproj.CopyComplete
+H:\haixt111\Script\word转PDF\06csdn\PDFSharp.ExtractImagesFromPDF\obj\Debug\PDFSharp.pdf2image.exe
+H:\haixt111\Script\word转PDF\06csdn\PDFSharp.ExtractImagesFromPDF\obj\Debug\PDFSharp.pdf2image.pdb
